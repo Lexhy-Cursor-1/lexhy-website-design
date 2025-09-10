@@ -2,49 +2,49 @@
 @tailwind components;
 @tailwind utilities;
 
-/* LEXHY Retro Design System - Warm Earth Tones */
+/* LEXHY Retro Design System - Red Earth & Warm Blue */
 
 @layer base {
   :root {
-    --background: 35 25% 96%;
+    --background: 35 20% 96%;
     --foreground: 25 15% 15%;
 
-    --card: 35 30% 98%;
+    --card: 35 25% 98%;
     --card-foreground: 25 15% 15%;
 
-    --popover: 35 30% 98%;
+    --popover: 35 25% 98%;
     --popover-foreground: 25 15% 15%;
 
-    --primary: 15 65% 55%;
-    --primary-foreground: 35 25% 96%;
+    --primary: 205 70% 45%;
+    --primary-foreground: 35 20% 96%;
 
-    --secondary: 75 25% 65%;
-    --secondary-foreground: 25 15% 15%;
+    --secondary: 12 65% 60%;
+    --secondary-foreground: 35 20% 96%;
 
     --muted: 35 15% 88%;
     --muted-foreground: 25 10% 45%;
 
-    --accent: 25 45% 35%;
-    --accent-foreground: 35 25% 96%;
+    --accent: 18 75% 35%;
+    --accent-foreground: 35 20% 96%;
 
     --destructive: 0 65% 55%;
-    --destructive-foreground: 35 25% 96%;
+    --destructive-foreground: 35 20% 96%;
 
     --border: 35 20% 85%;
-    --input: 35 20% 92%;
-    --ring: 15 65% 55%;
+    --input: 35 20% 90%;
+    --ring: 205 70% 45%;
 
     --radius: 0.75rem;
 
     /* Retro gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(15 65% 55%), hsl(25 55% 45%));
-    --gradient-warm: linear-gradient(180deg, hsl(35 25% 96%), hsl(35 15% 88%));
-    --gradient-accent: linear-gradient(45deg, hsl(75 25% 65%), hsl(85 30% 70%));
+    --gradient-hero: linear-gradient(135deg, hsl(205 70% 45%), hsl(195 60% 55%));
+    --gradient-warm: linear-gradient(180deg, hsl(35 20% 96%), hsl(30 15% 90%));
+    --gradient-accent: linear-gradient(45deg, hsl(12 65% 60%), hsl(18 75% 50%));
     
     /* Retro shadows */
-    --shadow-retro: 0 8px 32px hsl(15 65% 55% / 0.15);
+    --shadow-retro: 0 8px 32px hsl(205 70% 45% / 0.15);
     --shadow-card: 0 4px 16px hsl(25 15% 15% / 0.08);
-    --shadow-glow: 0 0 24px hsl(15 65% 55% / 0.2);
+    --shadow-glow: 0 0 24px hsl(205 70% 45% / 0.25);
 
     --sidebar-background: 0 0% 98%;
 
