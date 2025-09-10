@@ -1,12 +1,15 @@
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import heroImage from "@/assets/hero-image.jpg";
+import AnimatedChatBox from "@/components/AnimatedChatBox";
 
 const Hero = () => {
   return (
     <section className="relative min-h-screen flex items-center bg-background overflow-hidden">
       <div className="container mx-auto px-8 py-32 relative z-10">
-        <div className="max-w-5xl mx-auto text-center">          
+        <div className="max-w-5xl mx-auto text-center">
+          <AnimatedChatBox />
+          
           <h1 className="text-7xl md:text-8xl font-light text-foreground mb-12 leading-tight tracking-tight">
             Empower Your Business with 
             <span className="text-primary block mt-4 font-medium">Smart Legal Drafting</span>
