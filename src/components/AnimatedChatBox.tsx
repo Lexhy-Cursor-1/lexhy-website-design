@@ -14,30 +14,32 @@ const chatTexts = [
 const AnimatedChatBox = () => {
   const [currentTextIndex, setCurrentTextIndex] = useState(0);
   const [displayText, setDisplayText] = useState("");
+  const [currentIndex, setCurrentIndex] = useState(0);
   const [isTyping, setIsTyping] = useState(true);
 
   useEffect(() => {
     const currentFullText = chatTexts[currentTextIndex];
-    let currentIndex = 0;
     
-    const typeText = () => {
-      if (currentIndex <= currentFullText.length) {
-        setDisplayText(currentFullText.slice(0, currentIndex));
-        currentIndex++;
-      } else {
-        setIsTyping(false);
-        setTimeout(() => {
-          setIsTyping(true);
-          setCurrentTextIndex((prev) => (prev + 1) % chatTexts.length);
-        }, 2000);
-      }
-    };
-
     if (isTyping) {
-      const timer = setTimeout(typeText, 50);
+      const timer = setTimeout(() => {
+        if (currentIndex <= currentFullText.length) {
+          setDisplayText(currentFullText.slice(0, currentIndex));
+          setCurrentIndex(prev => prev + 1);
+        } else {
+          // Finished typing, wait then move to next text
+          setIsTyping(false);
+          setTimeout(() => {
+            setCurrentIndex(0);
+            setDisplayText("");
+            setCurrentTextIndex((prev) => (prev + 1) % chatTexts.length);
+            setIsTyping(true);
+          }, 2000);
+        }
+      }, 50);
+      
       return () => clearTimeout(timer);
     }
-  }, [currentTextIndex, displayText, isTyping]);
+  }, [currentTextIndex, currentIndex, isTyping]);
 
   return (
     <div className="w-full max-w-4xl mx-auto mb-16">
