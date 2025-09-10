@@ -63,6 +63,20 @@ export default {
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
       },
+      backgroundImage: {
+        "gradient-hero": "var(--gradient-hero)",
+        "gradient-warm": "var(--gradient-warm)",
+        "gradient-accent": "var(--gradient-accent)",
+      },
+      boxShadow: {
+        "retro": "var(--shadow-retro)",
+        "card": "var(--shadow-card)", 
+        "glow": "var(--shadow-glow)",
+      },
+      fontFamily: {
+        "display": ["Inter", "system-ui", "sans-serif"],
+        "body": ["Inter", "system-ui", "sans-serif"],
+      },
       keyframes: {
         "accordion-down": {
           from: {
