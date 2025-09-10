@@ -2,26 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
-/* LEXHY Dark Minimalist Design System - Exact Colors from Reference Photos */
+/* LEXHY Dark Minimalist Design System - Near Black Background */
 
 @layer base {
   :root {
-    --background: 30 20% 15%;
+    --background: 0 0% 8%;
     --foreground: 42 35% 92%;
 
-    --card: 30 25% 18%;
+    --card: 0 0% 12%;
     --card-foreground: 42 35% 92%;
 
-    --popover: 30 25% 18%;
+    --popover: 0 0% 12%;
     --popover-foreground: 42 35% 92%;
 
     --primary: 85 25% 50%;
-    --primary-foreground: 30 20% 15%;
+    --primary-foreground: 0 0% 8%;
 
     --secondary: 48 60% 58%;
-    --secondary-foreground: 30 20% 15%;
+    --secondary-foreground: 0 0% 8%;
 
-    --muted: 30 15% 25%;
+    --muted: 0 0% 18%;
     --muted-foreground: 42 20% 65%;
 
     --accent: 15 65% 48%;
@@ -30,21 +30,21 @@
     --destructive: 0 65% 55%;
     --destructive-foreground: 42 35% 92%;
 
-    --border: 30 20% 25%;
-    --input: 30 20% 22%;
+    --border: 0 0% 20%;
+    --input: 0 0% 15%;
     --ring: 85 25% 50%;
 
     --radius: 0.75rem;
 
     /* Dark minimalist gradients */
     --gradient-hero: linear-gradient(135deg, hsl(85 25% 50%), hsl(90 30% 45%));
-    --gradient-warm: linear-gradient(180deg, hsl(30 20% 15%), hsl(30 25% 18%));
+    --gradient-warm: linear-gradient(180deg, hsl(0 0% 8%), hsl(0 0% 12%));
     --gradient-accent: linear-gradient(45deg, hsl(15 65% 48%), hsl(48 60% 58%));
     
     /* Subtle shadows for dark theme */
-    --shadow-retro: 0 8px 32px hsl(0 0% 0% / 0.3);
-    --shadow-card: 0 4px 16px hsl(0 0% 0% / 0.2);
-    --shadow-glow: 0 0 24px hsl(85 25% 50% / 0.3);
+    --shadow-retro: 0 8px 32px hsl(0 0% 0% / 0.4);
+    --shadow-card: 0 4px 16px hsl(0 0% 0% / 0.3);
+    --shadow-glow: 0 0 24px hsl(85 25% 50% / 0.4);
 
     --sidebar-background: 0 0% 98%;
 
