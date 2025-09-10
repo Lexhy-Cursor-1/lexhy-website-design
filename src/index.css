@@ -2,49 +2,49 @@
 @tailwind components;
 @tailwind utilities;
 
-/* LEXHY Retro Design System - Sage Green Primary */
+/* LEXHY Retro Design System - Exact Colors from Reference Photos */
 
 @layer base {
   :root {
-    --background: 40 30% 95%;
-    --foreground: 25 15% 15%;
+    --background: 42 35% 92%;
+    --foreground: 30 20% 20%;
 
-    --card: 40 35% 97%;
-    --card-foreground: 25 15% 15%;
+    --card: 42 40% 95%;
+    --card-foreground: 30 20% 20%;
 
-    --popover: 40 35% 97%;
-    --popover-foreground: 25 15% 15%;
+    --popover: 42 40% 95%;
+    --popover-foreground: 30 20% 20%;
 
-    --primary: 75 35% 45%;
-    --primary-foreground: 40 30% 95%;
+    --primary: 85 25% 50%;
+    --primary-foreground: 42 35% 92%;
 
-    --secondary: 45 65% 60%;
-    --secondary-foreground: 25 15% 15%;
+    --secondary: 48 60% 58%;
+    --secondary-foreground: 30 20% 20%;
 
-    --muted: 40 20% 88%;
-    --muted-foreground: 25 10% 45%;
+    --muted: 42 25% 85%;
+    --muted-foreground: 30 15% 45%;
 
-    --accent: 12 75% 55%;
-    --accent-foreground: 40 30% 95%;
+    --accent: 15 65% 48%;
+    --accent-foreground: 42 35% 92%;
 
     --destructive: 0 65% 55%;
-    --destructive-foreground: 40 30% 95%;
+    --destructive-foreground: 42 35% 92%;
 
-    --border: 40 25% 85%;
-    --input: 40 25% 90%;
-    --ring: 75 35% 45%;
+    --border: 42 30% 82%;
+    --input: 42 30% 88%;
+    --ring: 85 25% 50%;
 
     --radius: 0.75rem;
 
-    /* Retro gradients with sage green primary */
-    --gradient-hero: linear-gradient(135deg, hsl(75 35% 45%), hsl(80 40% 50%));
-    --gradient-warm: linear-gradient(180deg, hsl(40 30% 95%), hsl(35 25% 88%));
-    --gradient-accent: linear-gradient(45deg, hsl(12 75% 55%), hsl(18 70% 50%));
+    /* Exact gradients matching photo arches */
+    --gradient-hero: linear-gradient(135deg, hsl(85 25% 50%), hsl(90 30% 45%));
+    --gradient-warm: linear-gradient(180deg, hsl(42 35% 92%), hsl(38 30% 86%));
+    --gradient-accent: linear-gradient(45deg, hsl(15 65% 48%), hsl(48 60% 58%));
     
-    /* Retro shadows */
-    --shadow-retro: 0 8px 32px hsl(75 35% 45% / 0.15);
-    --shadow-card: 0 4px 16px hsl(25 15% 15% / 0.08);
-    --shadow-glow: 0 0 24px hsl(75 35% 45% / 0.25);
+    /* Shadows matching photo mood */
+    --shadow-retro: 0 8px 32px hsl(85 25% 50% / 0.12);
+    --shadow-card: 0 4px 16px hsl(30 20% 20% / 0.06);
+    --shadow-glow: 0 0 24px hsl(85 25% 50% / 0.2);
 
     --sidebar-background: 0 0% 98%;
 
