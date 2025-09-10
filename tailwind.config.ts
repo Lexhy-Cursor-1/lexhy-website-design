@@ -74,8 +74,8 @@ export default {
         "glow": "var(--shadow-glow)",
       },
       fontFamily: {
-        "display": ["Inter", "system-ui", "sans-serif"],
-        "body": ["Inter", "system-ui", "sans-serif"],
+        "display": ["-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "sans-serif"],
+        "body": ["-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "sans-serif"],
       },
       keyframes: {
         "accordion-down": {
