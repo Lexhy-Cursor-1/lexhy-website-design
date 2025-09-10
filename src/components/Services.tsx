@@ -37,55 +37,57 @@ const services = [
 
 const Services = () => {
   return (
-    <section id="services" className="py-24 bg-background">
-      <div className="container mx-auto px-6">
-        <div className="text-center mb-16">
-          <h2 className="text-5xl font-display font-bold text-foreground mb-6">
+    <section id="services" className="py-32 bg-background">
+      <div className="container mx-auto px-8">
+        <div className="text-center mb-24">
+          <h2 className="text-6xl font-light text-foreground mb-8 tracking-tight">
             Choose Your Drafting Agent
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            From simple contracts to complex business agreements, our AI agents are trained to handle your specific needs. 
-            Plus, connect instantly with licensed lawyers when you need human expertise.
+          <p className="text-2xl text-muted-foreground max-w-4xl mx-auto font-light leading-relaxed">
+            From simple contracts to complex business agreements.
           </p>
         </div>
         
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl mx-auto">
           {services.map((service, index) => {
             const Icon = service.icon;
             return (
-              <Card key={index} className={`relative shadow-card hover:shadow-retro transition-all duration-300 ${service.popular ? 'ring-2 ring-primary' : ''}`}>
+              <Card key={index} className={`relative shadow-card hover:shadow-retro transition-all duration-500 bg-card/50 backdrop-blur-sm border-border/50 ${service.popular ? 'ring-1 ring-primary/50' : ''}`}>
                 {service.popular && (
-                  <Badge className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-primary text-primary-foreground">
+                  <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-primary text-primary-foreground px-4 py-1 rounded-full text-sm font-medium">
                     Most Popular
-                  </Badge>
-                )}
-                <CardHeader className="text-center">
-                  <div className="w-12 h-12 bg-gradient-hero rounded-lg mx-auto mb-4 flex items-center justify-center">
-                    <Icon className="w-6 h-6 text-primary-foreground" />
                   </div>
-                  <CardTitle className="text-xl font-display">{service.title}</CardTitle>
-                  <CardDescription className="text-muted-foreground">
+                )}
+                <CardHeader className="text-center p-8">
+                  <div className="w-16 h-16 bg-primary/10 rounded-2xl mx-auto mb-6 flex items-center justify-center">
+                    <Icon className="w-8 h-8 text-primary" />
+                  </div>
+                  <CardTitle className="text-2xl font-medium text-foreground mb-3">{service.title}</CardTitle>
+                  <CardDescription className="text-muted-foreground font-light text-lg leading-relaxed">
                     {service.description}
                   </CardDescription>
-                  <div className="text-3xl font-bold text-primary mt-4">
+                  <div className="text-4xl font-light text-primary mt-6">
                     {service.price}
                   </div>
                 </CardHeader>
-                <CardContent>
-                  <ul className="space-y-3 mb-6">
+                <CardContent className="px-8 pb-8">
+                  <ul className="space-y-4 mb-8">
                     {service.features.map((feature, idx) => (
-                      <li key={idx} className="flex items-center text-sm">
-                        <div className="w-2 h-2 bg-primary rounded-full mr-3"></div>
+                      <li key={idx} className="flex items-center text-base font-light">
+                        <div className="w-2 h-2 bg-primary rounded-full mr-4"></div>
                         {feature}
                       </li>
                     ))}
                   </ul>
-                  <Button 
-                    variant={service.popular ? "hero" : "outline"} 
-                    className="w-full"
+                  <button 
+                    className={`w-full py-4 rounded-xl font-medium transition-all duration-300 ${
+                      service.popular 
+                        ? 'bg-primary text-primary-foreground hover:shadow-glow' 
+                        : 'border border-border bg-transparent text-foreground hover:bg-card'
+                    }`}
                   >
                     Get Started
-                  </Button>
+                  </button>
                 </CardContent>
               </Card>
             );
