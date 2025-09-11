@@ -50,9 +50,9 @@ const AnimatedChatBox = () => {
           </div>
           <span className="text-sm font-medium text-muted-foreground">LEXHY AI Assistant</span>
           <div className="flex gap-1 ml-auto">
-            <div className="w-2 h-2 bg-primary rounded-full opacity-60"></div>
-            <div className="w-2 h-2 bg-secondary rounded-full opacity-60"></div>
-            <div className="w-2 h-2 bg-accent rounded-full opacity-60"></div>
+            <div className="w-2 h-2 bg-retro-pink rounded-full opacity-60"></div>
+            <div className="w-2 h-2 bg-retro-blue rounded-full opacity-60"></div>
+            <div className="w-2 h-2 bg-retro-purple rounded-full opacity-60"></div>
           </div>
         </div>
         

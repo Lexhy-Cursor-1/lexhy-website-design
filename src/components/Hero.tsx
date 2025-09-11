@@ -12,7 +12,7 @@ const Hero = () => {
           
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-light text-foreground mb-8 leading-tight tracking-tight">
             AI-Powered Legal Document
-            <span className="text-primary block mt-2 font-normal">Automation</span>
+            <span className="bg-gradient-retro bg-clip-text text-transparent block mt-2 font-normal">Automation</span>
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground mb-12 max-w-3xl mx-auto leading-relaxed">

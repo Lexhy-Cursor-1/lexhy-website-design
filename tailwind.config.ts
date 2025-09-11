@@ -19,6 +19,13 @@ export default {
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
+        retro: {
+          pink: "hsl(var(--retro-pink))",
+          blue: "hsl(var(--retro-blue))",
+          purple: "hsl(var(--retro-purple))",
+          orange: "hsl(var(--retro-orange))",
+          green: "hsl(var(--retro-green))",
+        },
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
@@ -67,6 +74,8 @@ export default {
         "gradient-hero": "var(--gradient-hero)",
         "gradient-warm": "var(--gradient-warm)",
         "gradient-accent": "var(--gradient-accent)",
+        "gradient-retro": "var(--gradient-retro)",
+        "gradient-retro-subtle": "var(--gradient-retro-subtle)",
       },
       boxShadow: {
         "retro": "var(--shadow-retro)",
