@@ -10,6 +10,11 @@ import HireLawyer from "./pages/HireLawyer";
 import Compliance from "./pages/Compliance";
 import Platform from "./pages/Platform";
 import Pricing from "./pages/Pricing";
+import ContactUs from "./pages/ContactUs";
+import AboutUs from "./pages/AboutUs";
+import LegalAdvicePlan from "./pages/LegalAdvicePlan";
+import Reviews from "./pages/Reviews";
+import Blog from "./pages/Blog";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -28,6 +33,11 @@ const App = () => (
           <Route path="/compliance" element={<Compliance />} />
           <Route path="/platform" element={<Platform />} />
           <Route path="/pricing" element={<Pricing />} />
+          <Route path="/contact-us" element={<ContactUs />} />
+          <Route path="/about-us" element={<AboutUs />} />
+          <Route path="/legal-advice-plan" element={<LegalAdvicePlan />} />
+          <Route path="/reviews" element={<Reviews />} />
+          <Route path="/blog" element={<Blog />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
