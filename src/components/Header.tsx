@@ -13,20 +13,32 @@ const Header = () => {
           </div>
           
           <nav className="hidden md:flex items-center space-x-8">
-            <a href="#services" className="text-muted-foreground hover:text-foreground transition-colors">
-              Services
+            <a href="/start-business" className="text-muted-foreground hover:text-foreground transition-colors">
+              Start a Business
             </a>
-            <a href="#how-it-works" className="text-muted-foreground hover:text-foreground transition-colors">
-              How It Works
+            <a href="/ai-documents" className="text-muted-foreground hover:text-foreground transition-colors">
+              AI Legal Documents
             </a>
-            <a href="#pricing" className="text-muted-foreground hover:text-foreground transition-colors">
+            <a href="/hire-lawyer" className="text-muted-foreground hover:text-foreground transition-colors">
+              Hire a Lawyer
+            </a>
+            <a href="/compliance" className="text-muted-foreground hover:text-foreground transition-colors">
+              Tax & Compliance
+            </a>
+            <a href="/platform" className="text-muted-foreground hover:text-foreground transition-colors">
+              Platform Features
+            </a>
+            <a href="/pricing" className="text-muted-foreground hover:text-foreground transition-colors">
               Pricing
+            </a>
+            <a href="/resources" className="text-muted-foreground hover:text-foreground transition-colors">
+              Resources
             </a>
           </nav>
           
           <div className="flex items-center space-x-4">
-            <Button variant="ghost">Sign In</Button>
-            <Button variant="hero">Get Started</Button>
+            <Button variant="outline">Request a Demo</Button>
+            <Button variant="hero">Sign up for free</Button>
           </div>
         </div>
       </div>

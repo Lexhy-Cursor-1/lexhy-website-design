@@ -11,12 +11,12 @@ const Hero = () => {
           <AnimatedChatBox />
           
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-light text-foreground mb-8 leading-tight tracking-tight">
-            AI-Powered Legal Document
-            <span className="bg-gradient-retro bg-clip-text text-transparent block mt-2 font-normal">Automation</span>
+            One platform.
+            <span className="bg-gradient-retro bg-clip-text text-transparent block mt-2 font-normal">Every business solution</span>
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground mb-12 max-w-3xl mx-auto leading-relaxed">
-            Streamline your legal document creation with intelligent automation for every business decision.
+            Create legal documents with AI agents, manage compliance and connect with lawyers on demand. Less stress, more time and better business.
           </p>
           
           <div className="bg-card border border-border rounded-lg p-6 mb-12 max-w-2xl mx-auto">
@@ -28,11 +28,22 @@ const Hero = () => {
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
             <Button size="lg" className="px-8 py-6 text-lg">
-              Get Started
+              Sign up for free
             </Button>
-            <Button variant="outline" size="lg" className="px-8 py-6 text-lg">
-              Schedule Demo
-            </Button>
+            <div className="flex items-center gap-2">
+              <div className="bg-primary/20 rounded-lg p-2">
+                <div className="flex">
+                  <span className="text-retro-orange">★</span>
+                  <span className="text-retro-orange">★</span>
+                  <span className="text-retro-orange">★</span>
+                  <span className="text-retro-orange">★</span>
+                  <span className="text-retro-orange">★</span>
+                </div>
+              </div>
+              <div className="text-sm text-muted-foreground">
+                <div className="font-medium">4.6 based on 20,681 reviews</div>
+              </div>
+            </div>
           </div>
           
           <div className="mt-16">
