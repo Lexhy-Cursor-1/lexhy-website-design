@@ -6,57 +6,58 @@
 
 @layer base {
   :root {
-    /* Professional warm base colors */
-    --background: 35 20% 98%;
-    --foreground: 25 15% 12%;
+    /* Retro yoga studio - calm cream base */
+    --background: 45 25% 97%;
+    --foreground: 160 20% 15%;
 
-    --card: 35 15% 97%;
-    --card-foreground: 25 15% 15%;
+    --card: 45 30% 95%;
+    --card-foreground: 160 20% 18%;
 
-    --popover: 35 15% 97%;
-    --popover-foreground: 25 15% 15%;
+    --popover: 45 30% 95%;
+    --popover-foreground: 160 20% 18%;
 
-    /* Warm professional primary - sophisticated brown */
-    --primary: 25 35% 25%;
-    --primary-foreground: 35 20% 98%;
+    /* Strong sage green primary */
+    --primary: 140 35% 45%;
+    --primary-foreground: 45 25% 97%;
 
-    /* Warm secondary tones */
-    --secondary: 35 25% 92%;
-    --secondary-foreground: 25 25% 20%;
+    /* Soft dusty rose secondary */
+    --secondary: 20 25% 85%;
+    --secondary-foreground: 160 20% 25%;
 
-    --muted: 35 20% 94%;
-    --muted-foreground: 25 15% 45%;
+    --muted: 45 20% 92%;
+    --muted-foreground: 160 15% 50%;
 
-    --accent: 30 30% 88%;
-    --accent-foreground: 25 25% 20%;
+    /* Warm terracotta accent */
+    --accent: 15 50% 65%;
+    --accent-foreground: 45 25% 97%;
 
-    --destructive: 0 70% 55%;
-    --destructive-foreground: 35 20% 98%;
+    --destructive: 0 65% 55%;
+    --destructive-foreground: 45 25% 97%;
 
-    --border: 35 15% 88%;
-    --input: 35 15% 88%;
-    --ring: 25 35% 25%;
+    --border: 45 15% 88%;
+    --input: 45 15% 88%;
+    --ring: 140 35% 45%;
 
     --radius: 0.5rem;
 
-    /* Professional warm accent colors */
-    --warm-gold: 40 50% 65%;
-    --warm-amber: 35 60% 70%;
-    --warm-terracotta: 15 45% 60%;
-    --warm-sage: 95 25% 55%;
-    --warm-caramel: 30 40% 55%;
+    /* Retro yoga studio accent colors */
+    --warm-gold: 40 45% 68%;
+    --warm-amber: 35 55% 72%;
+    --warm-terracotta: 15 50% 65%;
+    --warm-sage: 140 35% 55%;
+    --warm-dusty-rose: 20 35% 75%;
     
-    /* Professional gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(25 35% 25%), hsl(30 30% 35%));
-    --gradient-warm: linear-gradient(135deg, hsl(35 20% 98%), hsl(35 15% 95%));
-    --gradient-accent: linear-gradient(135deg, hsl(30 30% 88%), hsl(35 25% 92%));
-    --gradient-retro: linear-gradient(135deg, hsl(var(--warm-amber)), hsl(var(--warm-gold)));
-    --gradient-retro-subtle: linear-gradient(135deg, hsl(var(--warm-sage) / 0.15), hsl(var(--warm-amber) / 0.15));
+    /* Calming gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(140 35% 45%), hsl(140 30% 55%));
+    --gradient-warm: linear-gradient(135deg, hsl(45 25% 97%), hsl(45 20% 94%));
+    --gradient-accent: linear-gradient(135deg, hsl(20 25% 85%), hsl(15 35% 80%));
+    --gradient-retro: linear-gradient(135deg, hsl(var(--warm-sage)), hsl(var(--warm-terracotta)));
+    --gradient-retro-subtle: linear-gradient(135deg, hsl(var(--warm-sage) / 0.12), hsl(var(--warm-dusty-rose) / 0.12));
     
-    /* Professional shadows with warm tones */
-    --shadow-retro: 0 1px 3px 0 rgba(139, 69, 19, 0.1), 0 1px 2px 0 rgba(139, 69, 19, 0.06);
-    --shadow-card: 0 4px 6px -1px rgba(139, 69, 19, 0.08), 0 2px 4px -1px rgba(139, 69, 19, 0.04);
-    --shadow-glow: 0 10px 15px -3px rgba(139, 69, 19, 0.1), 0 4px 6px -2px rgba(139, 69, 19, 0.05);
+    /* Soft shadows with natural undertones */
+    --shadow-retro: 0 1px 3px 0 rgba(106, 139, 110, 0.15), 0 1px 2px 0 rgba(106, 139, 110, 0.08);
+    --shadow-card: 0 4px 6px -1px rgba(106, 139, 110, 0.12), 0 2px 4px -1px rgba(106, 139, 110, 0.06);
+    --shadow-glow: 0 10px 15px -3px rgba(106, 139, 110, 0.15), 0 4px 6px -2px rgba(106, 139, 110, 0.08);
 
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 240 5.3% 26.1%;
@@ -69,46 +70,49 @@
   }
 
   .dark {
-    /* Dark mode with warm undertones */
-    --background: 25 15% 8%;
-    --foreground: 35 20% 95%;
+    /* Dark retro yoga - deep forest base */
+    --background: 160 25% 8%;
+    --foreground: 45 30% 92%;
 
-    --card: 25 20% 10%;
-    --card-foreground: 35 20% 95%;
+    --card: 160 20% 12%;
+    --card-foreground: 45 30% 92%;
 
-    --popover: 25 20% 10%;
-    --popover-foreground: 35 20% 95%;
+    --popover: 160 20% 12%;
+    --popover-foreground: 45 30% 92%;
 
-    --primary: 40 50% 65%;
-    --primary-foreground: 25 15% 8%;
+    /* Glowing sage primary for dark mode */
+    --primary: 140 40% 60%;
+    --primary-foreground: 160 25% 8%;
 
-    --secondary: 25 15% 15%;
-    --secondary-foreground: 35 20% 95%;
+    /* Muted dusty rose for dark secondary */
+    --secondary: 20 20% 18%;
+    --secondary-foreground: 45 30% 92%;
 
-    --muted: 25 15% 15%;
-    --muted-foreground: 35 15% 60%;
+    --muted: 160 15% 15%;
+    --muted-foreground: 45 20% 65%;
 
-    --accent: 30 25% 18%;
-    --accent-foreground: 35 20% 95%;
+    /* Warm terracotta accent in dark */
+    --accent: 15 45% 55%;
+    --accent-foreground: 45 30% 92%;
 
-    --destructive: 0 70% 55%;
-    --destructive-foreground: 35 20% 95%;
+    --destructive: 0 60% 50%;
+    --destructive-foreground: 45 30% 92%;
 
-    --border: 25 15% 18%;
-    --input: 25 15% 18%;
-    --ring: 40 50% 65%;
+    --border: 160 15% 20%;
+    --input: 160 15% 20%;
+    --ring: 140 40% 60%;
 
-    /* Dark mode gradients with warm tones */
-    --gradient-hero: linear-gradient(135deg, hsl(25 15% 8%), hsl(25 20% 15%));
-    --gradient-warm: linear-gradient(135deg, hsl(25 20% 10%), hsl(25 15% 12%));
-    --gradient-accent: linear-gradient(135deg, hsl(30 25% 18%), hsl(25 15% 15%));
-    --gradient-retro: linear-gradient(135deg, hsl(var(--warm-amber)), hsl(var(--warm-gold)));
-    --gradient-retro-subtle: linear-gradient(135deg, hsl(var(--warm-sage) / 0.2), hsl(var(--warm-amber) / 0.2));
+    /* Dark retro gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(160 25% 8%), hsl(160 20% 15%));
+    --gradient-warm: linear-gradient(135deg, hsl(160 20% 12%), hsl(160 15% 10%));
+    --gradient-accent: linear-gradient(135deg, hsl(20 20% 18%), hsl(15 25% 20%));
+    --gradient-retro: linear-gradient(135deg, hsl(var(--warm-sage)), hsl(var(--warm-terracotta)));
+    --gradient-retro-subtle: linear-gradient(135deg, hsl(var(--warm-sage) / 0.15), hsl(var(--warm-dusty-rose) / 0.15));
 
-    /* Dark mode shadows with warm undertones */
-    --shadow-retro: 0 4px 6px -1px rgba(0, 0, 0, 0.25), 0 2px 4px -1px rgba(0, 0, 0, 0.15);
-    --shadow-card: 0 10px 15px -3px rgba(0, 0, 0, 0.25), 0 4px 6px -2px rgba(0, 0, 0, 0.15);
-    --shadow-glow: 0 20px 25px -5px rgba(0, 0, 0, 0.3), 0 10px 10px -5px rgba(0, 0, 0, 0.2);
+    /* Dark shadows with sage undertones */
+    --shadow-retro: 0 4px 6px -1px rgba(0, 0, 0, 0.4), 0 2px 4px -1px rgba(0, 0, 0, 0.25);
+    --shadow-card: 0 10px 15px -3px rgba(0, 0, 0, 0.4), 0 4px 6px -2px rgba(0, 0, 0, 0.25);
+    --shadow-glow: 0 20px 25px -5px rgba(0, 0, 0, 0.5), 0 10px 10px -5px rgba(0, 0, 0, 0.3);
 
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
