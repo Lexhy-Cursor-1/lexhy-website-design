@@ -74,7 +74,7 @@ const HowItWorks = () => {
               Why This Approach Works
             </h3>
             <p className="text-foreground/70 text-2xl leading-relaxed font-light">
-              Traditional legal services can cost $300-500+ per hour. Our AI agents handle the heavy lifting of document drafting, 
+              Traditional legal services can cost $300-2000+ per hour. Our AI agents handle the heavy lifting of document drafting, 
               then connect you with licensed lawyers only when you need human expertise - saving you thousands while ensuring professional quality.
             </p>
           </div>
