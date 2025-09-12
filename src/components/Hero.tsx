@@ -13,8 +13,8 @@ const Hero = () => {
           </div>
           
           <h1 className="text-6xl md:text-7xl lg:text-8xl font-semibold text-foreground mb-16 leading-none tracking-tight">
-            One platform.
-            <span className="bg-gradient-retro bg-clip-text text-transparent block mt-6 font-medium">Every business solution</span>
+            Your words.
+            <span className="bg-gradient-retro bg-clip-text text-transparent block mt-6 font-medium">Your Draft. Your power</span>
           </h1>
           
           <p className="text-2xl md:text-3xl text-foreground/80 mb-20 max-w-4xl mx-auto leading-relaxed font-light">
