@@ -42,35 +42,35 @@ const benefits = [
 
 const Benefits = () => {
   return (
-    <section className="py-24 bg-background">
-      <div className="container mx-auto px-6">
-        <div className="text-center mb-16">
-          <h2 className="text-5xl font-display font-bold text-foreground mb-6">
+    <section className="py-40 bg-background">
+      <div className="container mx-auto px-8">
+        <div className="text-center mb-32">
+          <h2 className="text-7xl font-semibold text-foreground mb-12">
             Empower Every Business Stage
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+          <p className="text-3xl text-foreground/70 max-w-5xl mx-auto font-light">
             From solo entrepreneurs to scaling enterprises, LEXHY adapts to your unique needs and budget.
           </p>
         </div>
         
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-12">
           {benefits.map((benefit, index) => {
             const Icon = benefit.icon;
             return (
-              <Card key={index} className="shadow-card hover:shadow-retro transition-all duration-300 group">
-                <CardHeader>
-                  <div className="w-12 h-12 bg-gradient-accent rounded-lg mb-4 flex items-center justify-center group-hover:shadow-glow transition-all duration-300">
-                    <Icon className="w-6 h-6 text-accent-foreground" />
+              <Card key={index} className="transition-all duration-300 group border-border hover:border-primary/30 bg-card">
+                <CardHeader className="p-10">
+                  <div className="w-16 h-16 bg-primary/10 rounded-2xl mb-8 flex items-center justify-center transition-all duration-300">
+                    <Icon className="w-8 h-8 text-primary" />
                   </div>
-                  <CardTitle className="text-xl font-display text-foreground">
+                  <CardTitle className="text-2xl font-semibold text-foreground mb-4">
                     {benefit.title}
                   </CardTitle>
-                  <div className="text-sm font-medium text-primary">
+                  <div className="text-lg font-medium text-primary/80 mb-6">
                     {benefit.audience}
                   </div>
                 </CardHeader>
-                <CardContent>
-                  <p className="text-muted-foreground leading-relaxed">
+                <CardContent className="px-10 pb-10">
+                  <p className="text-foreground/70 leading-relaxed text-lg font-light">
                     {benefit.description}
                   </p>
                 </CardContent>
@@ -79,19 +79,19 @@ const Benefits = () => {
           })}
         </div>
         
-        <div className="mt-16 text-center">
-          <div className="bg-card border border-border rounded-xl p-8 shadow-card">
-            <h3 className="text-3xl font-display font-bold text-foreground mb-4">
+        <div className="mt-24 text-center">
+          <div className="bg-card border border-border rounded-3xl p-16">
+            <h3 className="text-5xl font-semibold text-foreground mb-8">
               Ready to Transform Your Document Workflow?
             </h3>
-            <p className="text-lg text-muted-foreground mb-6 max-w-2xl mx-auto">
+            <p className="text-2xl text-foreground/70 mb-12 max-w-4xl mx-auto font-light">
               Join thousands of businesses who've already discovered the power of AI-assisted legal drafting.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="bg-gradient-hero text-primary-foreground px-8 py-3 rounded-lg font-semibold hover:shadow-glow transition-all duration-300">
+            <div className="flex flex-col sm:flex-row gap-8 justify-center">
+              <button className="bg-primary text-primary-foreground px-12 py-6 rounded-2xl font-medium text-xl hover:bg-primary/90 transition-all duration-300">
                 Start Your Free Trial
               </button>
-              <button className="border border-input bg-background text-foreground px-8 py-3 rounded-lg font-semibold hover:bg-accent hover:text-accent-foreground transition-colors">
+              <button className="border-2 border-border bg-background text-foreground px-12 py-6 rounded-2xl font-medium text-xl hover:border-primary/50 transition-colors">
                 Schedule a Demo
               </button>
             </div>

@@ -123,6 +123,16 @@
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-light;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-medium text-foreground;
+    line-height: 1.2;
+    letter-spacing: -0.025em;
+  }
+
+  p {
+    line-height: 1.7;
   }
 }

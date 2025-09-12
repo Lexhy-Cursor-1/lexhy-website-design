@@ -37,53 +37,53 @@ const services = [
 
 const Services = () => {
   return (
-    <section id="services" className="py-32 bg-background">
+    <section id="services" className="py-40 bg-background">
       <div className="container mx-auto px-8">
-        <div className="text-center mb-24">
-          <h2 className="text-6xl font-light text-foreground mb-8 tracking-tight">
+        <div className="text-center mb-32">
+          <h2 className="text-7xl font-semibold text-foreground mb-12 tracking-tight">
             Choose Your Drafting Agent
           </h2>
-          <p className="text-2xl text-muted-foreground max-w-4xl mx-auto font-light leading-relaxed">
+          <p className="text-3xl text-foreground/70 max-w-5xl mx-auto font-light leading-relaxed">
             From simple contracts to complex business agreements.
           </p>
         </div>
         
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl mx-auto">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 max-w-7xl mx-auto">
           {services.map((service, index) => {
             const Icon = service.icon;
             return (
-              <Card key={index} className={`relative shadow-card hover:shadow-retro transition-all duration-500 bg-card/50 backdrop-blur-sm border-border/50 ${service.popular ? 'ring-1 ring-primary/50' : ''}`}>
+              <Card key={index} className={`relative transition-all duration-300 bg-card border-border hover:border-primary/30 ${service.popular ? 'ring-2 ring-primary/20' : ''}`}>
                 {service.popular && (
-                  <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-primary text-primary-foreground px-4 py-1 rounded-full text-sm font-medium">
+                  <div className="absolute -top-6 left-1/2 transform -translate-x-1/2 bg-primary text-primary-foreground px-6 py-2 rounded-full text-lg font-medium">
                     Most Popular
                   </div>
                 )}
-                <CardHeader className="text-center p-8">
-                  <div className="w-16 h-16 bg-primary/10 rounded-2xl mx-auto mb-6 flex items-center justify-center">
-                    <Icon className="w-8 h-8 text-primary" />
+                <CardHeader className="text-center p-12">
+                  <div className="w-20 h-20 bg-primary/10 rounded-3xl mx-auto mb-8 flex items-center justify-center">
+                    <Icon className="w-10 h-10 text-primary" />
                   </div>
-                  <CardTitle className="text-2xl font-medium text-foreground mb-3">{service.title}</CardTitle>
-                  <CardDescription className="text-muted-foreground font-light text-lg leading-relaxed">
+                  <CardTitle className="text-3xl font-semibold text-foreground mb-6">{service.title}</CardTitle>
+                  <CardDescription className="text-foreground/70 font-light text-xl leading-relaxed">
                     {service.description}
                   </CardDescription>
-                  <div className="text-4xl font-light text-primary mt-6">
+                  <div className="text-5xl font-medium text-foreground mt-8">
                     {service.price}
                   </div>
                 </CardHeader>
-                <CardContent className="px-8 pb-8">
-                  <ul className="space-y-4 mb-8">
+                <CardContent className="px-12 pb-12">
+                  <ul className="space-y-6 mb-12">
                     {service.features.map((feature, idx) => (
-                      <li key={idx} className="flex items-center text-base font-light">
-                        <div className="w-2 h-2 bg-primary rounded-full mr-4"></div>
+                      <li key={idx} className="flex items-center text-lg font-light text-foreground/80">
+                        <div className="w-3 h-3 bg-primary rounded-full mr-6"></div>
                         {feature}
                       </li>
                     ))}
                   </ul>
                   <button 
-                    className={`w-full py-4 rounded-xl font-medium transition-all duration-300 ${
+                    className={`w-full py-6 rounded-2xl font-medium text-lg transition-all duration-300 ${
                       service.popular 
-                        ? 'bg-primary text-primary-foreground hover:shadow-glow' 
-                        : 'border border-border bg-transparent text-foreground hover:bg-card'
+                        ? 'bg-primary text-primary-foreground hover:bg-primary/90' 
+                        : 'border-2 border-border bg-transparent text-foreground hover:border-primary/50'
                     }`}
                   >
                     Get Started
