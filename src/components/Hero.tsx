@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import heroImage from "@/assets/hero-image.jpg";
+import businessWomanAI from "@/assets/business-woman-ai.jpg";
 import AnimatedChatBox from "@/components/AnimatedChatBox";
 
 const Hero = () => {
@@ -10,6 +11,14 @@ const Hero = () => {
         <div className="max-w-6xl mx-auto text-center space-y-24">
           <div className="mb-32">
             <AnimatedChatBox />
+          </div>
+          
+          <div className="relative mb-32">
+            <img 
+              src={businessWomanAI} 
+              alt="Professional businesswoman using AI document drafting technology" 
+              className="w-full max-w-4xl mx-auto rounded-3xl shadow-lg opacity-90 mb-16"
+            />
           </div>
           
           <h1 className="text-6xl md:text-7xl lg:text-8xl font-semibold text-foreground mb-24 leading-none tracking-tight">

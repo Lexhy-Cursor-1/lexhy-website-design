@@ -1,5 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { ArrowRight, Bot, Users, CheckCircle } from "lucide-react";
+import businessTeamCollaboration from "@/assets/business-team-collaboration.jpg";
+import professionalAIDrafting from "@/assets/professional-ai-drafting.jpg";
 
 const steps = [
   {
@@ -30,9 +32,21 @@ const HowItWorks = () => {
           <h2 className="text-7xl font-semibold text-foreground mb-20">
             How LEXHY Empowers You
           </h2>
-          <p className="text-3xl text-foreground/70 max-w-5xl mx-auto font-light">
+          <p className="text-3xl text-foreground/70 max-w-5xl mx-auto font-light mb-16">
             Transform your document workflow from expensive and slow to fast, affordable, and professionally validated.
           </p>
+          <div className="flex justify-center gap-8 mb-16">
+            <img 
+              src={businessTeamCollaboration} 
+              alt="Professional team collaborating on legal documents" 
+              className="w-80 h-60 object-cover rounded-2xl shadow-md"
+            />
+            <img 
+              src={professionalAIDrafting} 
+              alt="Professional using AI for document drafting" 
+              className="w-80 h-60 object-cover rounded-2xl shadow-md"
+            />
+          </div>
         </div>
         
         <div className="max-w-6xl mx-auto">

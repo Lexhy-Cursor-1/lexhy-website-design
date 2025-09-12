@@ -1,5 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { TrendingUp, Users, Zap, DollarSign, Clock, Shield } from "lucide-react";
+import legalProfessionalCalm from "@/assets/legal-professional-calm.jpg";
 
 const benefits = [
   {
@@ -48,9 +49,16 @@ const Benefits = () => {
           <h2 className="text-7xl font-semibold text-foreground mb-20">
             Empower Every Business Stage
           </h2>
-          <p className="text-3xl text-foreground/70 max-w-5xl mx-auto font-light">
+          <p className="text-3xl text-foreground/70 max-w-5xl mx-auto font-light mb-16">
             From solo entrepreneurs to scaling enterprises, LEXHY adapts to your unique needs and budget.
           </p>
+          <div className="flex justify-center mb-16">
+            <img 
+              src={legalProfessionalCalm} 
+              alt="Calm legal professional using AI assistance for document review" 
+              className="w-96 h-64 object-cover rounded-2xl shadow-md"
+            />
+          </div>
         </div>
         
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-20">

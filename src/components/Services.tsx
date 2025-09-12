@@ -63,10 +63,10 @@ const Services = () => {
                     <Icon className="w-12 h-12 text-primary" />
                   </div>
                   <CardTitle className="text-3xl font-semibold text-foreground mb-10">{service.title}</CardTitle>
-                  <CardDescription className="text-foreground/70 font-light text-xl leading-relaxed mb-12">
+                  <CardDescription className="text-foreground/70 font-light text-xl leading-relaxed mb-8">
                     {service.description}
                   </CardDescription>
-                  <div className="text-5xl font-medium text-foreground mt-12">
+                  <div className="text-4xl font-medium text-foreground mt-8 mb-4">
                     {service.price}
                   </div>
                 </CardHeader>
