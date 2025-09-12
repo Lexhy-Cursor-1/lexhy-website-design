@@ -35,11 +35,11 @@ const Hero = () => {
             <div className="flex items-center gap-4">
               <div className="bg-card/50 backdrop-blur-sm rounded-xl p-3">
                 <div className="flex">
-                  <span className="text-retro-orange text-lg">★</span>
-                  <span className="text-retro-orange text-lg">★</span>
-                  <span className="text-retro-orange text-lg">★</span>
-                  <span className="text-retro-orange text-lg">★</span>
-                  <span className="text-retro-orange text-lg">★</span>
+                  <span className="text-warm-amber text-lg">★</span>
+                  <span className="text-warm-amber text-lg">★</span>
+                  <span className="text-warm-amber text-lg">★</span>
+                  <span className="text-warm-amber text-lg">★</span>
+                  <span className="text-warm-amber text-lg">★</span>
                 </div>
               </div>
               <div className="text-lg text-foreground/70">
