@@ -24,10 +24,10 @@ const steps = [
 
 const HowItWorks = () => {
   return (
-    <section id="how-it-works" className="py-40 bg-muted/30">
+    <section id="how-it-works" className="py-64 bg-muted/30">
       <div className="container mx-auto px-8">
-        <div className="text-center mb-32">
-          <h2 className="text-7xl font-semibold text-foreground mb-12">
+        <div className="text-center mb-48">
+          <h2 className="text-7xl font-semibold text-foreground mb-20">
             How LEXHY Empowers You
           </h2>
           <p className="text-3xl text-foreground/70 max-w-5xl mx-auto font-light">
@@ -36,18 +36,18 @@ const HowItWorks = () => {
         </div>
         
         <div className="max-w-6xl mx-auto">
-          <div className="grid md:grid-cols-3 gap-16 relative">
+          <div className="grid md:grid-cols-3 gap-24 relative">
             
             {steps.map((step, index) => {
               const Icon = step.icon;
               return (
                 <div key={index} className="relative">
                   <Card className="transition-all duration-300 border-border hover:border-primary/30 bg-card">
-                    <CardContent className="p-12 text-center">
-                      <div className={`w-20 h-20 ${step.color} rounded-full mx-auto mb-10 flex items-center justify-center`}>
-                        <Icon className="w-10 h-10 text-white" />
+                    <CardContent className="p-16 text-center">
+                      <div className={`w-24 h-24 ${step.color} rounded-full mx-auto mb-16 flex items-center justify-center`}>
+                        <Icon className="w-12 h-12 text-white" />
                       </div>
-                      <h3 className="text-3xl font-semibold text-foreground mb-8">
+                      <h3 className="text-3xl font-semibold text-foreground mb-12">
                         {step.title}
                       </h3>
                       <p className="text-foreground/70 leading-relaxed text-xl font-light">
@@ -58,7 +58,7 @@ const HowItWorks = () => {
                   
                   {/* Mobile arrow */}
                   {index < steps.length - 1 && (
-                    <div className="md:hidden flex justify-center my-12">
+                    <div className="md:hidden flex justify-center my-20">
                       <ArrowRight className="w-8 h-8 text-primary" />
                     </div>
                   )}
@@ -68,9 +68,9 @@ const HowItWorks = () => {
           </div>
         </div>
         
-        <div className="text-center mt-24">
-          <div className="bg-card border border-border rounded-3xl p-16 max-w-5xl mx-auto">
-            <h3 className="text-4xl font-semibold text-foreground mb-8">
+        <div className="text-center mt-48">
+          <div className="bg-card border border-border rounded-3xl p-24 max-w-5xl mx-auto">
+            <h3 className="text-4xl font-semibold text-foreground mb-16">
               Why This Approach Works
             </h3>
             <p className="text-foreground/70 text-2xl leading-relaxed font-light">

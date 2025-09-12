@@ -42,10 +42,10 @@ const benefits = [
 
 const Benefits = () => {
   return (
-    <section className="py-40 bg-background">
+    <section className="py-64 bg-background">
       <div className="container mx-auto px-8">
-        <div className="text-center mb-32">
-          <h2 className="text-7xl font-semibold text-foreground mb-12">
+        <div className="text-center mb-48">
+          <h2 className="text-7xl font-semibold text-foreground mb-20">
             Empower Every Business Stage
           </h2>
           <p className="text-3xl text-foreground/70 max-w-5xl mx-auto font-light">
@@ -53,23 +53,23 @@ const Benefits = () => {
           </p>
         </div>
         
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-12">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-20">
           {benefits.map((benefit, index) => {
             const Icon = benefit.icon;
             return (
               <Card key={index} className="transition-all duration-300 group border-border hover:border-primary/30 bg-card">
-                <CardHeader className="p-10">
-                  <div className="w-16 h-16 bg-primary/10 rounded-2xl mb-8 flex items-center justify-center transition-all duration-300">
-                    <Icon className="w-8 h-8 text-primary" />
+                <CardHeader className="p-16">
+                  <div className="w-20 h-20 bg-primary/10 rounded-2xl mb-12 flex items-center justify-center transition-all duration-300">
+                    <Icon className="w-10 h-10 text-primary" />
                   </div>
-                  <CardTitle className="text-2xl font-semibold text-foreground mb-4">
+                  <CardTitle className="text-2xl font-semibold text-foreground mb-8">
                     {benefit.title}
                   </CardTitle>
-                  <div className="text-lg font-medium text-primary/80 mb-6">
+                  <div className="text-lg font-medium text-primary/80 mb-10">
                     {benefit.audience}
                   </div>
                 </CardHeader>
-                <CardContent className="px-10 pb-10">
+                <CardContent className="px-16 pb-16">
                   <p className="text-foreground/70 leading-relaxed text-lg font-light">
                     {benefit.description}
                   </p>
@@ -79,19 +79,19 @@ const Benefits = () => {
           })}
         </div>
         
-        <div className="mt-24 text-center">
-          <div className="bg-card border border-border rounded-3xl p-16">
-            <h3 className="text-5xl font-semibold text-foreground mb-8">
+        <div className="mt-48 text-center">
+          <div className="bg-card border border-border rounded-3xl p-24">
+            <h3 className="text-5xl font-semibold text-foreground mb-16">
               Ready to Transform Your Document Workflow?
             </h3>
-            <p className="text-2xl text-foreground/70 mb-12 max-w-4xl mx-auto font-light">
+            <p className="text-2xl text-foreground/70 mb-20 max-w-4xl mx-auto font-light">
               Join thousands of businesses who've already discovered the power of AI-assisted legal drafting.
             </p>
-            <div className="flex flex-col sm:flex-row gap-8 justify-center">
-              <button className="bg-primary text-primary-foreground px-12 py-6 rounded-2xl font-medium text-xl hover:bg-primary/90 transition-all duration-300">
+            <div className="flex flex-col sm:flex-row gap-12 justify-center">
+              <button className="bg-primary text-primary-foreground px-16 py-8 rounded-2xl font-medium text-xl hover:bg-primary/90 transition-all duration-300">
                 Start Your Free Trial
               </button>
-              <button className="border-2 border-border bg-background text-foreground px-12 py-6 rounded-2xl font-medium text-xl hover:border-primary/50 transition-colors">
+              <button className="border-2 border-border bg-background text-foreground px-16 py-8 rounded-2xl font-medium text-xl hover:border-primary/50 transition-colors">
                 Schedule a Demo
               </button>
             </div>
