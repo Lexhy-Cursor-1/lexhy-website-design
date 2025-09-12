@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import heroImage from "@/assets/hero-image.jpg";
-import businessWomanAI from "@/assets/business-woman-ai.jpg";
+import diverseAsianProfessionalsAI from "@/assets/diverse-asian-professionals-ai.jpg";
 import AnimatedChatBox from "@/components/AnimatedChatBox";
 
 const Hero = () => {
@@ -15,8 +15,8 @@ const Hero = () => {
           
           <div className="relative mb-32">
             <img 
-              src={businessWomanAI} 
-              alt="Professional businesswoman using AI document drafting technology" 
+              src={diverseAsianProfessionalsAI} 
+              alt="Diverse Asian professionals of different cultures and ages using AI document drafting technology" 
               className="w-full max-w-4xl mx-auto rounded-3xl shadow-lg opacity-90 mb-16"
             />
           </div>
