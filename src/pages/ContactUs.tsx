@@ -129,7 +129,7 @@ const ContactUs = () => {
               
               <Card className="p-6">
                 <h3 className="font-semibold mb-2">Do you offer free consultations?</h3>
-                <p className="text-muted-foreground">Yes! Sign up for free to get your first legal document and 30 minutes of AI-powered legal guidance.</p>
+                <p className="text-muted-foreground">Yes! Get your first legal document and 30 minutes of AI-powered legal guidance at no cost.</p>
               </Card>
               
               <Card className="p-6">

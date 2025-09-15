@@ -37,23 +37,18 @@ const Hero = () => {
             </p>
           </div>
           
-          <div className="flex flex-col sm:flex-row gap-12 justify-center items-center mb-40">
-            <Button size="lg" className="px-12 py-6 text-xl font-medium">
-              Sign up for free
-            </Button>
-            <div className="flex items-center gap-6">
-              <div className="bg-card/50 backdrop-blur-sm rounded-xl p-4">
-                <div className="flex">
-                  <span className="text-warm-amber text-lg">★</span>
-                  <span className="text-warm-amber text-lg">★</span>
-                  <span className="text-warm-amber text-lg">★</span>
-                  <span className="text-warm-amber text-lg">★</span>
-                  <span className="text-warm-amber text-lg">★</span>
-                </div>
+          <div className="flex items-center gap-6 justify-center mb-40">
+            <div className="bg-card/50 backdrop-blur-sm rounded-xl p-4">
+              <div className="flex">
+                <span className="text-warm-amber text-lg">★</span>
+                <span className="text-warm-amber text-lg">★</span>
+                <span className="text-warm-amber text-lg">★</span>
+                <span className="text-warm-amber text-lg">★</span>
+                <span className="text-warm-amber text-lg">★</span>
               </div>
-              <div className="text-lg text-foreground/70">
-                <div className="font-medium">4.6 based on 20,681 reviews</div>
-              </div>
+            </div>
+            <div className="text-lg text-foreground/70">
+              <div className="font-medium">4.6 based on 20,681 reviews</div>
             </div>
           </div>
           
