@@ -20,7 +20,6 @@ const Header = () => {
                 About
               </a>
               <Button variant="outline">Request a Demo</Button>
-              <Button variant="hero">Sign up for free</Button>
             </div>
         </div>
       </div>
