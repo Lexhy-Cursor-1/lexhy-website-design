@@ -5,6 +5,7 @@ import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Users, Target, Award, Zap, Shield, Globe, Home } from "lucide-react";
 import { Link } from "react-router-dom";
+import huiLingTeoProfile from "@/assets/hui-ling-teo-profile.jpg";
 
 const AboutUs = () => {
   const stats = [
@@ -42,7 +43,7 @@ const AboutUs = () => {
       name: "Hui Ling Teo",
       role: "CEO & Founder",
       background: "Former Big Law partner, AI enthusiast",
-      image: "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=400&h=400&fit=crop&crop=face"
+      image: huiLingTeoProfile
     },
     {
       name: "Hui Yian",
