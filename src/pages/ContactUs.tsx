@@ -31,15 +31,15 @@ const ContactUs = () => {
             <div className="grid md:grid-cols-4 gap-6 mb-16">
               <Card className="p-6 text-center hover:shadow-lg transition-shadow">
                 <Phone className="h-8 w-8 text-primary mx-auto mb-4" />
-                <h3 className="font-semibold mb-2">Phone Support</h3>
-                <p className="text-muted-foreground mb-2">1800 LEXHY AI</p>
+                <h3 className="font-semibold mb-2">WhatsApp Support</h3>
+                <a href="https://wa.me/6597265330" className="text-muted-foreground mb-2 hover:text-primary transition-colors">+65 97265330</a>
                 <p className="text-sm text-muted-foreground">Mon-Fri 9am-6pm AEST</p>
               </Card>
               
               <Card className="p-6 text-center hover:shadow-lg transition-shadow">
                 <Mail className="h-8 w-8 text-primary mx-auto mb-4" />
                 <h3 className="font-semibold mb-2">Email Support</h3>
-                <p className="text-muted-foreground mb-2">hello@lexhy.ai</p>
+                <p className="text-muted-foreground mb-2">hello@lexhygroup.com</p>
                 <p className="text-sm text-muted-foreground">24/7 AI responses</p>
               </Card>
               
