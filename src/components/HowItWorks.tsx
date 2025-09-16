@@ -26,16 +26,16 @@ const steps = [
 
 const HowItWorks = () => {
   return (
-    <section id="how-it-works" className="py-64 bg-muted/30">
+    <section id="how-it-works" className="py-44 bg-muted/30">
       <div className="container mx-auto px-8">
-        <div className="text-center mb-48">
-          <h2 className="text-7xl font-semibold text-foreground mb-20">
+        <div className="text-center mb-32">
+          <h2 className="text-7xl font-semibold text-foreground mb-14">
             How LEXHY Empowers You
           </h2>
-          <p className="text-3xl text-foreground/90 max-w-5xl mx-auto font-light mb-16">
+          <p className="text-3xl text-foreground/90 max-w-5xl mx-auto font-light mb-10">
             Transform your document workflow from expensive and slow to fast, affordable, and professionally validated.
           </p>
-          <div className="flex justify-center gap-8 mb-16">
+          <div className="flex justify-center gap-6 mb-10">
             <img 
               src={businessTeamCollaboration} 
               alt="Professional team collaborating on legal documents" 
@@ -50,18 +50,18 @@ const HowItWorks = () => {
         </div>
         
         <div className="max-w-6xl mx-auto">
-          <div className="grid md:grid-cols-3 gap-24 relative">
+          <div className="grid md:grid-cols-3 gap-16 relative">
             
             {steps.map((step, index) => {
               const Icon = step.icon;
               return (
                 <div key={index} className="relative">
                   <Card className="transition-all duration-300 border-border hover:border-primary/30 bg-card">
-                    <CardContent className="p-16 text-center">
-                      <div className={`w-24 h-24 ${step.color} rounded-full mx-auto mb-16 flex items-center justify-center`}>
+                    <CardContent className="p-12 text-center">
+                      <div className={`w-24 h-24 ${step.color} rounded-full mx-auto mb-12 flex items-center justify-center`}>
                         <Icon className="w-12 h-12 text-white" />
                       </div>
-                      <h3 className="text-3xl font-semibold text-foreground mb-12">
+                      <h3 className="text-3xl font-semibold text-foreground mb-8">
                         {step.title}
                       </h3>
                       <p className="text-foreground/90 leading-relaxed text-xl font-light">
@@ -72,7 +72,7 @@ const HowItWorks = () => {
                   
                   {/* Mobile arrow */}
                   {index < steps.length - 1 && (
-                    <div className="md:hidden flex justify-center my-20">
+                    <div className="md:hidden flex justify-center my-14">
                       <ArrowRight className="w-8 h-8 text-primary" />
                     </div>
                   )}
@@ -82,9 +82,9 @@ const HowItWorks = () => {
           </div>
         </div>
         
-        <div className="text-center mt-48">
-          <div className="bg-card border border-border rounded-3xl p-24 max-w-5xl mx-auto">
-            <h3 className="text-4xl font-semibold text-foreground mb-16">
+        <div className="text-center mt-32">
+          <div className="bg-card border border-border rounded-3xl p-16 max-w-5xl mx-auto">
+            <h3 className="text-4xl font-semibold text-foreground mb-12">
               Why This Approach Works
             </h3>
             <p className="text-foreground/90 text-2xl leading-relaxed font-light">
