@@ -62,7 +62,7 @@ const Hero = () => {
                   Master Vibe Drafting
                 </h3>
                 <p className="text-xl text-foreground/80 mb-8 font-light">
-                  Join our interactive workshop and learn the revolutionary approach that's transforming how businesses create legal documents.
+                  Join our interactive workshop and learn the revolutionary approach that's transforming how businesses create contracts.
                 </p>
                 <a 
                   href="https://luma.com/lexhyvibedraftintro1" 
