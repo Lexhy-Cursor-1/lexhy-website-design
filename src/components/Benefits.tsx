@@ -93,7 +93,7 @@ const Benefits = () => {
               Ready to Transform Your Document Workflow?
             </h3>
             <p className="text-2xl text-foreground/70 mb-20 max-w-4xl mx-auto font-light">
-              Join thousands of businesses who've already discovered the power of AI-assisted legal drafting.
+              Join thousands of businesses who've already discovered the power of AI-assisted contract drafting.
             </p>
             <div className="flex flex-col sm:flex-row gap-12 justify-center">
               <a 

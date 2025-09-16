@@ -10,10 +10,10 @@ import huiYianProfile from "@/assets/hui-yian-profile-new.jpg";
 
 const AboutUs = () => {
   const stats = [
-    { number: "US$2+", label: "Billion Matters Supported" },
-    { number: "Top 20", label: "Ranked Globally" },
+    { number: "Leadership", label: "Team with US$2 billion+ value of matters supported" },
+    { number: "Top 20", label: "Ranked globally" },
+    { number: "Verified", label: "User support and community driven verification" },
     { number: "10,000+", label: "5-Star Reviews" },
-    { number: "99.9%", label: "AI Accuracy Rate" },
   ];
 
   const values = [
@@ -25,17 +25,17 @@ const AboutUs = () => {
     {
       icon: <Shield className="h-8 w-8" />,
       title: "Trust & Security",
-      description: "Your legal matters are sensitive. We maintain the highest standards of security and confidentiality in everything we do."
+      description: "Your contracts are sensitive. We maintain the highest standards of security and confidentiality in everything we do."
     },
     {
       icon: <Users className="h-8 w-8" />,
       title: "Customer Focused",
-      description: "Every feature we build, every AI model we train, is designed with one goal: making your legal journey simpler and more successful."
+      description: "Every feature we build, every AI model we train, is designed with one goal: making your contracting journey simpler and more successful."
     },
     {
       icon: <Zap className="h-8 w-8" />,
       title: "Speed & Efficiency",
-      description: "Time is money in business. Our AI agents work 24/7 to provide instant legal guidance and document creation."
+      description: "Time is money in business. Our AI agents work 24/7 to provide instant contract and agreement creation."
     }
   ];
 
@@ -108,7 +108,7 @@ const AboutUs = () => {
                     Legal services have been gatekept by complexity and cost for too long. We believe every business owner, entrepreneur, and individual deserves access to high-quality legal guidance without the traditional barriers.
                   </p>
                   <p className="text-muted-foreground mb-6">
-                    Through our AI-powered platform, we're breaking down these barriers, providing instant legal document creation, compliance monitoring, and expert legal advice at a fraction of traditional costs.
+                    Through our AI-powered platform, we're breaking down these barriers, providing instant contract and agreement creation, compliance monitoring, and instant connection to licensed legal service providers at a fraction of traditional costs.
                   </p>
                   <div className="flex items-center gap-4">
                     <Globe className="h-6 w-6 text-primary" />
@@ -193,7 +193,7 @@ const AboutUs = () => {
         {/* CTA Section */}
         <section className="py-16 bg-primary text-primary-foreground">
           <div className="container mx-auto px-4 text-center">
-            <h2 className="text-3xl font-bold mb-4">Ready to Experience the Future of Legal Services?</h2>
+            <h2 className="text-3xl font-bold mb-4">Ready to Experience the Future of Contract Creation and Management?</h2>
             <p className="text-xl mb-8 opacity-90 max-w-2xl mx-auto">
               Join hundreds of thousands of businesses who trust LEXHY for their legal needs
             </p>
