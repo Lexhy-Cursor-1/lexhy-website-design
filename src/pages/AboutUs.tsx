@@ -7,8 +7,8 @@ import { Users, Target, Award, Zap, Shield, Globe } from "lucide-react";
 
 const AboutUs = () => {
   const stats = [
-    { number: "500,000+", label: "Businesses Served" },
-    { number: "$100M+", label: "Legal Fees Saved" },
+    { number: "US$2+", label: "Billion Matters Supported" },
+    { number: "Top 20", label: "Ranked Globally" },
     { number: "10,000+", label: "5-Star Reviews" },
     { number: "99.9%", label: "AI Accuracy Rate" },
   ];
@@ -38,28 +38,16 @@ const AboutUs = () => {
 
   const team = [
     {
-      name: "Sarah Chen",
-      role: "CEO & Co-Founder",
-      background: "Former BigLaw partner, AI enthusiast",
+      name: "Hui Ling Teo",
+      role: "CEO & Founder",
+      background: "Former Big Law partner, AI enthusiast",
       image: "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=400&h=400&fit=crop&crop=face"
     },
     {
-      name: "Marcus Rodriguez",
-      role: "CTO & Co-Founder", 
-      background: "Ex-Google AI, Legal Tech Pioneer",
-      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&crop=face"
-    },
-    {
-      name: "Dr. Priya Patel",
-      role: "Head of AI Legal Research",
-      background: "PhD Law & Computer Science, Stanford",
+      name: "Hui Yian",
+      role: "COO & Co-Founder of Vibe Draft Classes", 
+      background: "Former big 4 auditor, AI enthusiast",
       image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&h=400&fit=crop&crop=face"
-    },
-    {
-      name: "James Thompson",
-      role: "Head of Legal Operations",
-      background: "20+ years legal practice, compliance expert",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face"
     }
   ];
 
@@ -162,7 +150,7 @@ const AboutUs = () => {
               </p>
             </div>
             
-            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="grid md:grid-cols-2 gap-8 max-w-2xl mx-auto">
               {team.map((member, index) => (
                 <Card key={index} className="p-6 text-center hover:shadow-lg transition-shadow">
                   <img 
@@ -179,31 +167,15 @@ const AboutUs = () => {
           </div>
         </section>
 
-        {/* Awards Section */}
-        <section className="py-16">
+        {/* Legal Disclaimer Section */}
+        <section className="py-16 bg-muted/30">
           <div className="container mx-auto px-4">
-            <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold mb-4">Recognition & Awards</h2>
-              <p className="text-muted-foreground">Our commitment to excellence has been recognized by industry leaders</p>
-            </div>
-            
-            <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
-              <Card className="p-6 text-center">
-                <Award className="h-12 w-12 text-primary mx-auto mb-4" />
-                <h3 className="font-semibold mb-2">Legal Tech Innovation Award</h3>
-                <p className="text-sm text-muted-foreground">Australian Legal Technology Association 2024</p>
-              </Card>
-              
-              <Card className="p-6 text-center">
-                <Award className="h-12 w-12 text-primary mx-auto mb-4" />
-                <h3 className="font-semibold mb-2">Best AI Platform</h3>
-                <p className="text-sm text-muted-foreground">Legal Services Innovation Summit 2024</p>
-              </Card>
-              
-              <Card className="p-6 text-center">
-                <Award className="h-12 w-12 text-primary mx-auto mb-4" />
-                <h3 className="font-semibold mb-2">Customer Choice Award</h3>
-                <p className="text-sm text-muted-foreground">Based on 10,000+ verified reviews</p>
+            <div className="max-w-4xl mx-auto text-center">
+              <h2 className="text-2xl font-bold mb-6">Important Legal Notice</h2>
+              <Card className="p-8">
+                <p className="text-muted-foreground text-sm leading-relaxed">
+                  <strong>LEXHY is not a law firm.</strong> We are a technology platform that provides AI-powered legal document creation and guidance tools. When human legal review is requested by users, LEXHY connects users to licensed legal practitioners who conduct human-in-the-loop reviews to ensure accuracy and compliance. All legal advice and formal legal representations are provided by qualified, licensed attorneys through our network of legal professionals.
+                </p>
               </Card>
             </div>
           </div>
