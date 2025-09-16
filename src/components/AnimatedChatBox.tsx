@@ -56,17 +56,17 @@ const AnimatedChatBox = () => {
           </div>
         </div>
         
-        <div className="flex items-center gap-4 p-4 bg-background/50 rounded-xl border border-border/30">
+        <div className="flex items-center gap-4 p-6 bg-background/50 rounded-xl border border-border/30">
           <div className="flex-1">
-            <p className="text-lg font-light text-muted-foreground">
+            <p className="text-xl font-light text-muted-foreground py-2">
               {displayText}
               {isTyping && (
-                <span className="inline-block w-0.5 h-5 bg-primary ml-1 animate-pulse"></span>
+                <span className="inline-block w-0.5 h-6 bg-primary ml-1 animate-pulse"></span>
               )}
             </p>
           </div>
-          <button className="bg-primary text-primary-foreground p-3 rounded-lg hover:shadow-glow transition-all duration-300 flex-shrink-0">
-            <Send className="w-5 h-5" />
+          <button className="bg-primary text-primary-foreground p-4 rounded-lg hover:shadow-glow transition-all duration-300 flex-shrink-0">
+            <Send className="w-6 h-6" />
           </button>
         </div>
         
