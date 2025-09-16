@@ -194,7 +194,7 @@ const AboutUs = () => {
           <div className="container mx-auto px-4 text-center">
             <h2 className="text-3xl font-bold mb-4">Ready to Experience the Future of Contract Creation and Management?</h2>
             <p className="text-xl mb-8 opacity-90 max-w-2xl mx-auto">
-              Join hundreds of thousands of businesses who trust LEXHY for their legal needs
+              Join hundreds of thousands of businesses who trust LEXHY for their contract needs
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button variant="secondary" size="lg" asChild>
