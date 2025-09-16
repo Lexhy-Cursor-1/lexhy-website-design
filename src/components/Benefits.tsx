@@ -96,12 +96,14 @@ const Benefits = () => {
               Join thousands of businesses who've already discovered the power of AI-assisted legal drafting.
             </p>
             <div className="flex flex-col sm:flex-row gap-12 justify-center">
-              <button className="bg-primary text-primary-foreground px-16 py-8 rounded-2xl font-medium text-xl hover:bg-primary/90 transition-all duration-300">
-                Start Your Free Trial
-              </button>
-              <button className="border-2 border-border bg-background text-foreground px-16 py-8 rounded-2xl font-medium text-xl hover:border-primary/50 transition-colors">
-                Schedule a Demo
-              </button>
+              <a 
+                href="https://wa.me/6597265330" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="bg-primary text-primary-foreground px-16 py-8 rounded-2xl font-medium text-xl hover:bg-primary/90 transition-all duration-300 inline-block text-center"
+              >
+                Contact Us
+              </a>
             </div>
           </div>
         </div>
