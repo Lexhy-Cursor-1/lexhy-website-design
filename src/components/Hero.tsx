@@ -47,6 +47,22 @@ const Hero = () => {
               <span className="text-lg font-medium">Legal Teams</span>
             </div>
           </div>
+
+          {/* Client Testimonial */}
+          <div className="mt-32 max-w-4xl mx-auto">
+            <div className="bg-card/70 backdrop-blur-sm border border-border/50 rounded-2xl p-8 md:p-12">
+              <blockquote className="text-foreground/90 text-lg md:text-xl leading-relaxed font-light mb-6">
+                "I tried the Vibe Drafting method for a business contract under the guidance of the Lexhy team, and the experience exceeded all expectations. The process flowed seamlessly — from contract creation, to negotiation preparation, right through to signing and completion. What truly impressed me was how nuanced the method was in addressing not just the legal terms, but also the human factors in understanding my counterparty's concerns.
+              </blockquote>
+              <blockquote className="text-foreground/90 text-lg md:text-xl leading-relaxed font-light mb-8">
+                Thanks to this approach, I was able to launch a successful new business line while saving a significant amount in legal fees. For me, Vibe Drafting wasn't just about documents — it was about empowering me to move faster and smarter in business. I'm genuinely excited for other business owners to experience the same support and results with Lexhy."
+              </blockquote>
+              <footer className="text-right">
+                <cite className="text-primary font-semibold text-lg">Mr. Lesser</cite>
+                <p className="text-muted-foreground text-sm">Singapore, Business Owner</p>
+              </footer>
+            </div>
+          </div>
         </div>
       </div>
     </section>
