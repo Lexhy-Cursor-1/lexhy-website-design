@@ -103,7 +103,7 @@ const AboutUs = () => {
                   </p>
                   <div className="flex items-center gap-4">
                     <Globe className="h-6 w-6 text-primary" />
-                    <span className="text-sm text-muted-foreground">Serving businesses across Australia and expanding globally</span>
+                    <span className="text-sm text-muted-foreground">Serving businesses across Singapore and expanding regionally</span>
                   </div>
                 </div>
                 <div className="relative">
