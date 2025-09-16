@@ -65,9 +65,14 @@ const AnimatedChatBox = () => {
               )}
             </p>
           </div>
-          <button className="bg-primary text-primary-foreground p-4 rounded-lg hover:shadow-glow transition-all duration-300 flex-shrink-0">
-            <Send className="w-6 h-6" />
-          </button>
+          <div className="flex items-center gap-3">
+            <span className="text-xs text-orange-500 font-medium bg-orange-50 px-2 py-1 rounded-full border border-orange-200">
+              In Production
+            </span>
+            <button className="bg-primary text-primary-foreground p-4 rounded-lg hover:shadow-glow transition-all duration-300 flex-shrink-0">
+              <Send className="w-6 h-6" />
+            </button>
+          </div>
         </div>
         
         <div className="flex flex-col gap-1 mt-4 text-xs text-muted-foreground">
