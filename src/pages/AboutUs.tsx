@@ -63,7 +63,7 @@ const AboutUs = () => {
             <div className="max-w-4xl mx-auto text-center">
               <Badge variant="secondary" className="mb-6">About LEXHY</Badge>
               <h1 className="text-4xl md:text-5xl font-bold mb-6">
-                Revolutionizing Legal Services with <span className="text-transparent bg-clip-text bg-gradient-to-r from-retro-cyan to-retro-purple">AI Intelligence</span>
+                Revolutionizing Contract & Document Creation with <span className="text-transparent bg-clip-text bg-gradient-to-r from-retro-cyan to-retro-purple">AI Intelligence</span>
               </h1>
               <p className="text-xl text-muted-foreground mb-8 max-w-3xl mx-auto">
                 We're on a mission to democratize legal expertise. By combining cutting-edge AI with human legal excellence, we're making professional legal services accessible, affordable, and available 24/7 for businesses of all sizes.
