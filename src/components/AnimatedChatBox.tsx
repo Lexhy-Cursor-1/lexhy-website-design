@@ -48,7 +48,7 @@ const AnimatedChatBox = () => {
           <div className="w-8 h-8 bg-primary/20 rounded-lg flex items-center justify-center">
             <MessageSquare className="w-4 h-4 text-primary" />
           </div>
-          <span className="text-sm font-medium text-muted-foreground">LEXHY AI Assistant</span>
+          <span className="text-base font-medium text-muted-foreground">LEXHY AI Assistant</span>
           <div className="flex gap-1 ml-auto">
             <div className="w-2 h-2 bg-retro-pink rounded-full opacity-60"></div>
             <div className="w-2 h-2 bg-retro-blue rounded-full opacity-60"></div>
@@ -73,7 +73,7 @@ const AnimatedChatBox = () => {
         <div className="flex flex-col gap-1 mt-4 text-xs text-muted-foreground">
           <div className="flex justify-between items-center">
             <span>AI-powered contract and document drafting</span>
-            <span>⚖️ Not a law firm. Not legal advice.</span>
+            <span className="text-red-600 font-medium">⚖️ Not a law firm. Not legal advice.</span>
           </div>
           <div className="text-left">
             <span>Rely on licensed legal professionals for checking. LEXHY connects you to licensed legal professionals upon request.</span>
