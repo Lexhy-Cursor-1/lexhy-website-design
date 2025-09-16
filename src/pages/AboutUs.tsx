@@ -6,6 +6,7 @@ import { Badge } from "@/components/ui/badge";
 import { Users, Target, Award, Zap, Shield, Globe, Home } from "lucide-react";
 import { Link } from "react-router-dom";
 import huiLingTeoProfile from "@/assets/hui-ling-teo-profile.jpg";
+import huiYianProfile from "@/assets/hui-yian-profile.jpg";
 
 const AboutUs = () => {
   const stats = [
@@ -49,7 +50,7 @@ const AboutUs = () => {
       name: "Hui Yian",
       role: "COO & Co-Founder of Vibe Draft Classes", 
       background: "Former big 4 auditor, AI enthusiast",
-      image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&h=400&fit=crop&crop=face"
+      image: huiYianProfile
     }
   ];
 
