@@ -16,7 +16,7 @@ const Footer = () => {
               Empowering businesses with AI-powered document drafting and instant access to licensed legal professionals.
             </p>
             <div className="bg-destructive/10 border border-destructive/20 rounded-lg p-4">
-              <p className="text-destructive font-medium text-sm">
+              <p className="text-red-600 font-medium text-sm">
                 ⚖️ <strong>Legal Disclaimer:</strong> LEXHY is not a law firm and does not provide legal advice or services. We provide document drafting assistance only.
               </p>
             </div>

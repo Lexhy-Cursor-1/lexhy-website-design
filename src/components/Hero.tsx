@@ -31,7 +31,7 @@ const Hero = () => {
           </p>
           
           <div className="bg-card/50 backdrop-blur-sm border border-border/50 rounded-2xl p-12 mb-32 max-w-3xl mx-auto">
-            <p className="text-muted-foreground text-lg font-light">
+            <p className="text-red-600 text-lg font-medium">
               ⚖️ <strong className="font-semibold">Important:</strong> LEXHY is not a law firm and does not provide legal services. 
               We provide document drafting assistance only.
             </p>
