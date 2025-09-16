@@ -76,7 +76,7 @@ const AnimatedChatBox = () => {
             <span className="text-red-600 font-medium">⚖️ Not a law firm. Not legal advice.</span>
           </div>
           <div className="text-left">
-            <span>Rely on licensed legal professionals for checking. LEXHY connects you to licensed legal professionals upon request.</span>
+            <span>Rely on licensed legal professionals for legal advice, legal review and legal services. LEXHY connects you to licensed legal professionals upon request.</span>
           </div>
         </div>
       </div>
