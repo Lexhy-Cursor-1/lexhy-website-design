@@ -48,6 +48,26 @@ const Hero = () => {
             </div>
           </div>
 
+          {/* Vibe Drafting Workshop Promotion */}
+          <div className="mt-32 max-w-4xl mx-auto">
+            <div className="bg-gradient-to-br from-primary/20 to-primary/10 backdrop-blur-sm border border-primary/30 rounded-2xl p-8 md:p-12 text-center">
+              <h3 className="text-3xl md:text-4xl font-semibold text-foreground mb-6">
+                🎯 Master Vibe Drafting
+              </h3>
+              <p className="text-xl text-foreground/80 mb-8 font-light">
+                Join our interactive workshop and learn the revolutionary approach that's transforming how businesses create legal documents.
+              </p>
+              <a 
+                href="https://luma.com/lexhyvibedraftintro1" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="bg-primary text-primary-foreground px-12 py-6 rounded-xl font-semibold text-lg hover:bg-primary/90 transition-all duration-300 inline-block shadow-lg hover:shadow-xl"
+              >
+                Reserve Your Spot →
+              </a>
+            </div>
+          </div>
+
           {/* Client Testimonial */}
           <div className="mt-32 max-w-4xl mx-auto">
             <div className="bg-card/70 backdrop-blur-sm border border-border/50 rounded-2xl p-8 md:p-12">
