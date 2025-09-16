@@ -189,9 +189,10 @@ const AboutUs = () => {
               Join hundreds of thousands of businesses who trust LEXHY for their legal needs
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button variant="secondary" size="lg">Start Free Trial</Button>
-              <Button variant="outline" size="lg" className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary">
-                Schedule Demo
+              <Button variant="secondary" size="lg" asChild>
+                <a href="https://wa.me/6597265330" target="_blank" rel="noopener noreferrer">
+                  Contact Us
+                </a>
               </Button>
             </div>
           </div>
