@@ -183,7 +183,7 @@ const AboutUs = () => {
               <h2 className="text-2xl font-bold mb-6">Important Legal Notice</h2>
               <Card className="p-8">
                 <p className="text-red-600 text-sm leading-relaxed font-medium">
-                  <strong>LEXHY is not a law firm.</strong> We are a technology platform that provides AI-powered legal document creation and guidance tools. When human legal review is requested by users, LEXHY connects users to licensed legal practitioners who conduct human-in-the-loop reviews to ensure accuracy and compliance. All legal advice and formal legal representations are provided by qualified, licensed attorneys through our network of legal professionals.
+                  <strong>LEXHY is not a law firm.</strong> We are a technology platform that provides AI-powered contract creation and guidance tools. When human legal review is requested by users, LEXHY connects users to licensed legal practitioners who conduct human-in-the-loop reviews to ensure accuracy and compliance. All legal advice and formal legal representations are provided by qualified, licensed attorneys through our network of legal professionals.
                 </p>
               </Card>
             </div>
