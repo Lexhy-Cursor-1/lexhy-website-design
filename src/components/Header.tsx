@@ -13,9 +13,6 @@ const Header = () => {
           </div>
           
             <div className="flex items-center space-x-4">
-              <a href="/contact-us" className="text-muted-foreground hover:text-foreground transition-colors hidden lg:block">
-                Contact
-              </a>
               <a href="/about-us" className="text-muted-foreground hover:text-foreground transition-colors hidden lg:block">
                 About
               </a>
