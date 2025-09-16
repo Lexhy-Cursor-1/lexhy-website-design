@@ -52,7 +52,7 @@ const Hero = () => {
           <div className="mt-32 max-w-4xl mx-auto">
             <div className="bg-gradient-to-br from-primary/20 to-primary/10 backdrop-blur-sm border border-primary/30 rounded-2xl p-8 md:p-12 text-center">
               <h3 className="text-3xl md:text-4xl font-semibold text-foreground mb-6">
-                🎯 Master Vibe Drafting
+                Master Vibe Drafting
               </h3>
               <p className="text-xl text-foreground/80 mb-8 font-light">
                 Join our interactive workshop and learn the revolutionary approach that's transforming how businesses create legal documents.
