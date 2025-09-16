@@ -36,7 +36,7 @@ const benefits = [
   {
     icon: Shield,
     title: "Professional Quality",
-    description: "AI-powered precision with human lawyer oversight ensures compliance.",
+    description: "AI-powered precision by connecting you with human lawyer oversight ensures compliance.",
     audience: "Private Individuals"
   }
 ];
