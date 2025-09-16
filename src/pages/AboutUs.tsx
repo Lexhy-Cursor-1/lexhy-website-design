@@ -6,7 +6,7 @@ import { Badge } from "@/components/ui/badge";
 import { Users, Target, Award, Zap, Shield, Globe, Home } from "lucide-react";
 import { Link } from "react-router-dom";
 import huiLingTeoProfile from "@/assets/hui-ling-teo-profile.jpg";
-import huiYianProfile from "@/assets/hui-yian-profile.jpg";
+import huiYianProfile from "@/assets/hui-yian-profile-new.jpg";
 
 const AboutUs = () => {
   const stats = [
