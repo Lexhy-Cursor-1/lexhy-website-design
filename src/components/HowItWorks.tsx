@@ -32,7 +32,7 @@ const HowItWorks = () => {
           <h2 className="text-7xl font-semibold text-foreground mb-20">
             How LEXHY Empowers You
           </h2>
-          <p className="text-3xl text-foreground/70 max-w-5xl mx-auto font-light mb-16">
+          <p className="text-3xl text-foreground/90 max-w-5xl mx-auto font-light mb-16">
             Transform your document workflow from expensive and slow to fast, affordable, and professionally validated.
           </p>
           <div className="flex justify-center gap-8 mb-16">
@@ -64,7 +64,7 @@ const HowItWorks = () => {
                       <h3 className="text-3xl font-semibold text-foreground mb-12">
                         {step.title}
                       </h3>
-                      <p className="text-foreground/70 leading-relaxed text-xl font-light">
+                      <p className="text-foreground/90 leading-relaxed text-xl font-light">
                         {step.description}
                       </p>
                     </CardContent>
@@ -87,7 +87,7 @@ const HowItWorks = () => {
             <h3 className="text-4xl font-semibold text-foreground mb-16">
               Why This Approach Works
             </h3>
-            <p className="text-foreground/70 text-2xl leading-relaxed font-light">
+            <p className="text-foreground/90 text-2xl leading-relaxed font-light">
               Traditional legal services can cost $300-2000+ per hour. Our AI agents handle the heavy lifting of document drafting, 
               then connect you with licensed lawyers only when you need human expertise - saving you thousands while ensuring professional quality.
             </p>

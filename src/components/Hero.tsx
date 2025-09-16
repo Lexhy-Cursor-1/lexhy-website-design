@@ -39,7 +39,7 @@ const Hero = () => {
           
           
           <div className="mt-40">
-            <p className="text-foreground/60 mb-16 text-lg uppercase tracking-wider font-light">Trusted by</p>
+            <p className="text-foreground/80 mb-16 text-lg uppercase tracking-wider font-light">Trusted by</p>
             <div className="flex justify-center items-center space-x-20 opacity-70">
               <span className="text-lg font-medium">Startups</span>
               <span className="text-lg font-medium">SMBs</span>
@@ -79,7 +79,7 @@ const Hero = () => {
               </blockquote>
               <footer className="text-right">
                 <cite className="text-primary font-semibold text-lg">Mr. Lesser</cite>
-                <p className="text-muted-foreground text-sm">Singapore, Business Owner</p>
+                <p className="text-foreground/80 text-sm">Singapore, Business Owner</p>
               </footer>
             </div>
           </div>

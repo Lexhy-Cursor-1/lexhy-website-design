@@ -49,7 +49,7 @@ const Benefits = () => {
           <h2 className="text-7xl font-semibold text-foreground mb-20">
             Empower Every Business Stage
           </h2>
-          <p className="text-3xl text-foreground/70 max-w-5xl mx-auto font-light mb-16">
+          <p className="text-3xl text-foreground/90 max-w-5xl mx-auto font-light mb-16">
             From solo entrepreneurs to scaling enterprises, LEXHY adapts to your unique needs and budget.
           </p>
           <div className="flex justify-center mb-16">
@@ -78,7 +78,7 @@ const Benefits = () => {
                   </div>
                 </CardHeader>
                 <CardContent className="px-16 pb-16">
-                  <p className="text-foreground/70 leading-relaxed text-lg font-light">
+                  <p className="text-foreground/90 leading-relaxed text-lg font-light">
                     {benefit.description}
                   </p>
                 </CardContent>
@@ -92,7 +92,7 @@ const Benefits = () => {
             <h3 className="text-5xl font-semibold text-foreground mb-16">
               Ready to Transform Your Document Workflow?
             </h3>
-            <p className="text-2xl text-foreground/70 mb-20 max-w-4xl mx-auto font-light">
+            <p className="text-2xl text-foreground/90 mb-20 max-w-4xl mx-auto font-light">
               Join thousands of businesses who've already discovered the power of AI-assisted contract drafting.
             </p>
             <div className="flex flex-col sm:flex-row gap-12 justify-center">
