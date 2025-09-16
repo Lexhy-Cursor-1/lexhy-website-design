@@ -16,6 +16,9 @@ const Header = () => {
               <a href="/about-us" className="text-muted-foreground hover:text-foreground transition-colors hidden lg:block">
                 About
               </a>
+              <a href="/workshops" className="text-muted-foreground hover:text-foreground transition-colors hidden lg:block">
+                Workshops
+              </a>
               <Button variant="outline" asChild>
                 <a href="https://wa.me/6597265330" target="_blank" rel="noopener noreferrer">
                   Contact Us

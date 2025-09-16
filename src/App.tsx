@@ -12,6 +12,7 @@ import Platform from "./pages/Platform";
 import Pricing from "./pages/Pricing";
 
 import AboutUs from "./pages/AboutUs";
+import MasterVibeDrafting from "./pages/MasterVibeDrafting";
 import LegalAdvicePlan from "./pages/LegalAdvicePlan";
 import Reviews from "./pages/Reviews";
 import Blog from "./pages/Blog";
@@ -35,6 +36,7 @@ const App = () => (
           <Route path="/pricing" element={<Pricing />} />
           
           <Route path="/about-us" element={<AboutUs />} />
+          <Route path="/workshops" element={<MasterVibeDrafting />} />
           <Route path="/legal-advice-plan" element={<LegalAdvicePlan />} />
           <Route path="/reviews" element={<Reviews />} />
           <Route path="/blog" element={<Blog />} />
