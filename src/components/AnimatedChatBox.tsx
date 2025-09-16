@@ -42,8 +42,8 @@ const AnimatedChatBox = () => {
   }, [currentTextIndex, currentIndex, isTyping]);
 
   return (
-    <div className="w-full max-w-4xl mx-auto mb-16">
-      <div className="bg-card/30 backdrop-blur-md border border-border/50 rounded-2xl p-6 shadow-card">
+    <div className="w-full max-w-5xl mx-auto mb-16">
+      <div className="bg-card/30 backdrop-blur-md border border-border/50 rounded-2xl p-8 shadow-card">
         <div className="flex items-center gap-3 mb-4">
           <div className="w-8 h-8 bg-primary/20 rounded-lg flex items-center justify-center">
             <MessageSquare className="w-4 h-4 text-primary" />
@@ -75,8 +75,8 @@ const AnimatedChatBox = () => {
             <span>AI-powered contract and document drafting</span>
             <span>⚖️ Not a law firm. Not legal advice.</span>
           </div>
-          <div className="text-center">
-            <span>Rely on licensed legal professionals for checking. LEXHY connects you to licensed professionals upon request.</span>
+          <div className="text-left">
+            <span>Rely on licensed legal professionals for checking. LEXHY connects you to licensed legal professionals upon request.</span>
           </div>
         </div>
       </div>
