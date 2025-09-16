@@ -3,7 +3,8 @@ import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Users, Target, Award, Zap, Shield, Globe } from "lucide-react";
+import { Users, Target, Award, Zap, Shield, Globe, Home } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const AboutUs = () => {
   const stats = [
@@ -67,7 +68,13 @@ const AboutUs = () => {
                 We're on a mission to democratize legal expertise. By combining cutting-edge AI with human legal excellence, we're making professional legal services accessible, affordable, and available 24/7 for businesses of all sizes.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Button size="lg">Join Our Mission</Button>
+                <Button size="lg" asChild>
+                  <Link to="/">
+                    <Home className="mr-2 h-4 w-4" />
+                    Home
+                  </Link>
+                </Button>
+                <Button variant="outline" size="lg">Join Our Mission</Button>
                 <Button variant="outline" size="lg">Read Our Story</Button>
               </div>
             </div>
