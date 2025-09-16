@@ -71,8 +71,8 @@ const AnimatedChatBox = () => {
         </div>
         
         <div className="flex justify-between items-center mt-4 text-xs text-muted-foreground">
-          <span>AI-powered legal document drafting</span>
-          <span>⚖️ Not legal advice</span>
+          <span>AI-powered contract and document drafting</span>
+          <span>⚖️ Not a law firm. Not legal advice.</span>
         </div>
       </div>
     </div>
