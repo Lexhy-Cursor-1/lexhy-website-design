@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className="bg-accent text-accent-foreground">
       <div className="container mx-auto px-6 py-16">
-        <div className="grid md:grid-cols-4 gap-8">
+        <div className="grid md:grid-cols-3 gap-8">
           <div className="col-span-1">
             <div className="flex items-center space-x-2 mb-6">
               <div className="w-8 h-8 bg-gradient-hero rounded-lg flex items-center justify-center">
@@ -39,12 +39,6 @@ const Footer = () => {
               <li><a href="#" className="hover:text-accent-foreground transition-colors">How It Works</a></li>
               <li><a href="#" className="hover:text-accent-foreground transition-colors">Pricing</a></li>
               <li><a href="#" className="hover:text-accent-foreground transition-colors">Contact</a></li>
-            </ul>
-          </div>
-          
-          <div>
-            <h4 className="font-display font-bold text-lg mb-4">Legal & Support</h4>
-            <ul className="space-y-2 text-accent-foreground/80">
             </ul>
           </div>
         </div>
