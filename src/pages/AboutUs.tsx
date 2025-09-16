@@ -11,9 +11,8 @@ import huiYianProfile from "@/assets/hui-yian-profile-new.jpg";
 const AboutUs = () => {
   const stats = [
     { number: "Leadership", label: "Team with US$2 billion+ value of matters supported" },
-    { number: "Top 20", label: "Ranked globally" },
+    { number: "Top 20", label: "Ranked globally founder designed" },
     { number: "Verified", label: "User support and community driven verification" },
-    { number: "10,000+", label: "5-Star Reviews" },
   ];
 
   const values = [
@@ -86,11 +85,11 @@ const AboutUs = () => {
         {/* Stats Section */}
         <section className="py-16">
           <div className="container mx-auto px-4">
-            <div className="grid md:grid-cols-4 gap-8">
+            <div className="grid md:grid-cols-3 gap-8">
               {stats.map((stat, index) => (
                 <div key={index} className="text-center">
                   <div className="text-3xl md:text-4xl font-bold text-primary mb-2">{stat.number}</div>
-                  <div className="text-muted-foreground">{stat.label}</div>
+                  <div className="text-foreground/90 font-medium">{stat.label}</div>
                 </div>
               ))}
             </div>
@@ -104,10 +103,10 @@ const AboutUs = () => {
               <div className="grid md:grid-cols-2 gap-12 items-center">
                 <div>
                   <h2 className="text-3xl font-bold mb-6">Our Mission</h2>
-                  <p className="text-muted-foreground mb-6">
+                  <p className="text-foreground/90 mb-6">
                     Legal services have been gatekept by complexity and cost for too long. We believe every business owner, entrepreneur, and individual deserves access to high-quality legal guidance without the traditional barriers.
                   </p>
-                  <p className="text-muted-foreground mb-6">
+                  <p className="text-foreground/90 mb-6">
                     Through our AI-powered platform, we're breaking down these barriers, providing instant contract and agreement creation, compliance monitoring, and instant connection to licensed legal service providers at a fraction of traditional costs.
                   </p>
                   <div className="flex items-center gap-4">
@@ -132,7 +131,7 @@ const AboutUs = () => {
           <div className="container mx-auto px-4">
             <div className="text-center mb-12">
               <h2 className="text-3xl font-bold mb-4">Our Values</h2>
-              <p className="text-muted-foreground max-w-2xl mx-auto">
+              <p className="text-foreground/90 max-w-2xl mx-auto">
                 The principles that guide everything we do and every decision we make
               </p>
             </div>
@@ -142,7 +141,7 @@ const AboutUs = () => {
                 <Card key={index} className="p-6 text-center hover:shadow-lg transition-shadow">
                   <div className="text-primary mb-4 flex justify-center">{value.icon}</div>
                   <h3 className="font-semibold mb-3">{value.title}</h3>
-                  <p className="text-sm text-muted-foreground">{value.description}</p>
+                  <p className="text-sm text-foreground/80">{value.description}</p>
                 </Card>
               ))}
             </div>
@@ -154,7 +153,7 @@ const AboutUs = () => {
           <div className="container mx-auto px-4">
             <div className="text-center mb-12">
               <h2 className="text-3xl font-bold mb-4">Leadership Team</h2>
-              <p className="text-muted-foreground max-w-2xl mx-auto">
+              <p className="text-foreground/90 max-w-2xl mx-auto">
                 Meet the visionaries combining legal expertise with AI innovation
               </p>
             </div>
@@ -169,7 +168,7 @@ const AboutUs = () => {
                   />
                   <h3 className="font-semibold mb-1">{member.name}</h3>
                   <p className="text-primary text-sm mb-2">{member.role}</p>
-                  <p className="text-xs text-muted-foreground">{member.background}</p>
+                  <p className="text-xs text-foreground/80">{member.background}</p>
                 </Card>
               ))}
             </div>
