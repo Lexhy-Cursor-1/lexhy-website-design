@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import heroImage from "@/assets/hero-image.jpg";
 import diverseAsianProfessionalsAI from "@/assets/diverse-asian-professionals-ai.jpg";
+import vibeDraftingWorkshop from "@/assets/vibe-drafting-workshop.jpg";
 import AnimatedChatBox from "@/components/AnimatedChatBox";
 
 const Hero = () => {
@@ -50,21 +51,28 @@ const Hero = () => {
 
           {/* Vibe Drafting Workshop Promotion */}
           <div className="mt-32 max-w-4xl mx-auto">
-            <div className="bg-gradient-to-br from-primary/20 to-primary/10 backdrop-blur-sm border border-primary/30 rounded-2xl p-8 md:p-12 text-center">
-              <h3 className="text-3xl md:text-4xl font-semibold text-foreground mb-6">
-                Master Vibe Drafting
-              </h3>
-              <p className="text-xl text-foreground/80 mb-8 font-light">
-                Join our interactive workshop and learn the revolutionary approach that's transforming how businesses create legal documents.
-              </p>
-              <a 
-                href="https://luma.com/lexhyvibedraftintro1" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="bg-primary text-primary-foreground px-12 py-6 rounded-xl font-semibold text-lg hover:bg-primary/90 transition-all duration-300 inline-block shadow-lg hover:shadow-xl"
-              >
-                Reserve Your Spot →
-              </a>
+            <div className="bg-gradient-to-br from-primary/20 to-primary/10 backdrop-blur-sm border border-primary/30 rounded-2xl overflow-hidden">
+              <img 
+                src={vibeDraftingWorkshop} 
+                alt="Business owners actively participating in a Vibe Drafting workshop, learning and collaborating" 
+                className="w-full h-64 object-cover"
+              />
+              <div className="p-8 md:p-12 text-center">
+                <h3 className="text-3xl md:text-4xl font-semibold text-foreground mb-6">
+                  Master Vibe Drafting
+                </h3>
+                <p className="text-xl text-foreground/80 mb-8 font-light">
+                  Join our interactive workshop and learn the revolutionary approach that's transforming how businesses create legal documents.
+                </p>
+                <a 
+                  href="https://luma.com/lexhyvibedraftintro1" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="bg-primary text-primary-foreground px-12 py-6 rounded-xl font-semibold text-lg hover:bg-primary/90 transition-all duration-300 inline-block shadow-lg hover:shadow-xl"
+                >
+                  Reserve Your Spot →
+                </a>
+              </div>
             </div>
           </div>
 
