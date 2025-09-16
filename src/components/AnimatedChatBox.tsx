@@ -73,7 +73,7 @@ const AnimatedChatBox = () => {
         <div className="flex flex-col gap-1 mt-4 text-xs text-muted-foreground">
           <div className="flex justify-between items-center">
             <span>AI-powered contract and document drafting</span>
-            <span className="text-red-600 font-medium">⚖️ Not a law firm. Not legal advice.</span>
+            <span className="text-red-600 font-medium">⚖️ LEXHY is not a law firm. LEXHY does not provide legal advice.</span>
           </div>
           <div className="text-left">
             <span>Rely on licensed legal professionals for legal advice, legal review and legal services. LEXHY connects you to licensed legal professionals upon request.</span>
