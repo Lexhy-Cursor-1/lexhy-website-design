@@ -1,6 +1,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { TrendingUp, Users, Zap, DollarSign, Clock, Shield } from "lucide-react";
 import legalProfessionalCalm from "@/assets/legal-professional-calm.jpg";
+import ComparisonDiagram from "./ComparisonDiagram";
 
 const benefits = [
   {
@@ -43,12 +44,14 @@ const benefits = [
 
 const Benefits = () => {
   return (
-    <section className="py-64 bg-background">
-      <div className="container mx-auto px-8">
-        <div className="text-center mb-48">
-          <h2 className="text-7xl font-semibold text-foreground mb-20">
-            Empower Every Business Stage
-          </h2>
+    <>
+      <ComparisonDiagram />
+      <section className="py-64 bg-background">
+        <div className="container mx-auto px-8">
+          <div className="text-center mb-48">
+            <h2 className="text-7xl font-semibold text-foreground mb-20">
+              Empower Every Business Stage
+            </h2>
           <p className="text-3xl text-foreground/90 max-w-5xl mx-auto font-light mb-16">
             From solo entrepreneurs to scaling enterprises, LEXHY adapts to your unique needs and budget.
           </p>
@@ -109,6 +112,7 @@ const Benefits = () => {
         </div>
       </div>
     </section>
+    </>
   );
 };
 
