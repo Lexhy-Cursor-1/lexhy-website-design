@@ -86,8 +86,8 @@ const Hero = () => {
                 Thanks to this approach, I was able to launch a successful new business line while saving a significant amount in legal fees. For me, Vibe Drafting wasn't just about documents — it was about empowering me to move faster and smarter in business. I'm genuinely excited for other business owners to experience the same support and results with Lexhy."
               </blockquote>
               <footer className="text-right">
-                <cite className="text-primary font-semibold text-lg">Mr. Lesser</cite>
-                <p className="text-foreground/80 text-sm">Singapore, Business Owner</p>
+                <cite className="text-primary font-semibold text-lg">Steven Lesser</cite>
+                <p className="text-foreground/80 text-sm">Singapore, Founder & Managing Director, On It Supply</p>
               </footer>
             </div>
           </div>
