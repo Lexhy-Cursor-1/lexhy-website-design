@@ -2,145 +2,65 @@
 @tailwind components;
 @tailwind utilities;
 
-/* LEXHY Palantir-Inspired Design System */
-
 @layer base {
   :root {
-    /* Retro yoga studio - calm cream base */
-    --background: 45 25% 97%;
-    --foreground: 160 20% 15%;
-
-    --card: 45 30% 95%;
-    --card-foreground: 160 20% 18%;
-
-    --popover: 45 30% 95%;
-    --popover-foreground: 160 20% 18%;
-
-    /* Strong sage green primary */
-    --primary: 140 35% 45%;
-    --primary-foreground: 45 25% 97%;
-
-    /* Soft dusty rose secondary */
-    --secondary: 20 25% 85%;
-    --secondary-foreground: 160 20% 25%;
-
-    --muted: 45 20% 92%;
-    --muted-foreground: 160 15% 50%;
-
-    /* Warm terracotta accent */
-    --accent: 15 50% 65%;
-    --accent-foreground: 45 25% 97%;
-
-    --destructive: 0 65% 55%;
-    --destructive-foreground: 45 25% 97%;
-
-    --border: 45 15% 88%;
-    --input: 45 15% 88%;
-    --ring: 140 35% 45%;
-
-    --radius: 0.5rem;
-
-    /* Retro yoga studio accent colors */
-    --warm-gold: 40 45% 68%;
-    --warm-amber: 35 55% 72%;
-    --warm-terracotta: 15 50% 65%;
-    --warm-sage: 140 35% 55%;
-    --warm-dusty-rose: 20 35% 75%;
-    
-    /* Calming gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(140 35% 45%), hsl(140 30% 55%));
-    --gradient-warm: linear-gradient(135deg, hsl(45 25% 97%), hsl(45 20% 94%));
-    --gradient-accent: linear-gradient(135deg, hsl(20 25% 85%), hsl(15 35% 80%));
-    --gradient-retro: linear-gradient(135deg, hsl(var(--warm-sage)), hsl(var(--warm-terracotta)));
-    --gradient-retro-subtle: linear-gradient(135deg, hsl(var(--warm-sage) / 0.12), hsl(var(--warm-dusty-rose) / 0.12));
-    
-    /* Soft shadows with natural undertones */
-    --shadow-retro: 0 1px 3px 0 rgba(106, 139, 110, 0.15), 0 1px 2px 0 rgba(106, 139, 110, 0.08);
-    --shadow-card: 0 4px 6px -1px rgba(106, 139, 110, 0.12), 0 2px 4px -1px rgba(106, 139, 110, 0.06);
-    --shadow-glow: 0 10px 15px -3px rgba(106, 139, 110, 0.15), 0 4px 6px -2px rgba(106, 139, 110, 0.08);
-
-    --sidebar-background: 0 0% 98%;
-    --sidebar-foreground: 240 5.3% 26.1%;
-    --sidebar-primary: 240 5.9% 10%;
-    --sidebar-primary-foreground: 0 0% 98%;
-    --sidebar-accent: 240 4.8% 95.9%;
-    --sidebar-accent-foreground: 240 5.9% 10%;
-    --sidebar-border: 220 13% 91%;
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    --background: 40 21% 95%;
+    --foreground: 0 0% 11%;
+    --card: 40 29% 98%;
+    --card-foreground: 0 0% 11%;
+    --popover: 40 29% 98%;
+    --popover-foreground: 0 0% 11%;
+    --primary: 0 0% 11%;
+    --primary-foreground: 40 21% 95%;
+    --secondary: 40 15% 91%;
+    --secondary-foreground: 0 0% 11%;
+    --muted: 40 10% 90%;
+    --muted-foreground: 40 3% 40%;
+    --accent: 40 15% 91%;
+    --accent-foreground: 0 0% 11%;
+    --destructive: 2 58% 39%;
+    --destructive-foreground: 40 29% 98%;
+    --border: 40 11% 84%;
+    --input: 40 11% 84%;
+    --ring: 0 0% 11%;
+    --paper: 40 29% 98%;
+    --radius: 0rem;
   }
 
-  .dark {
-    /* Dark retro yoga - deep forest base */
-    --background: 160 25% 8%;
-    --foreground: 45 30% 92%;
-
-    --card: 160 20% 12%;
-    --card-foreground: 45 30% 92%;
-
-    --popover: 160 20% 12%;
-    --popover-foreground: 45 30% 92%;
-
-    /* Glowing sage primary for dark mode */
-    --primary: 140 40% 60%;
-    --primary-foreground: 160 25% 8%;
-
-    /* Muted dusty rose for dark secondary */
-    --secondary: 20 20% 18%;
-    --secondary-foreground: 45 30% 92%;
-
-    --muted: 160 15% 15%;
-    --muted-foreground: 45 20% 65%;
-
-    /* Warm terracotta accent in dark */
-    --accent: 15 45% 55%;
-    --accent-foreground: 45 30% 92%;
-
-    --destructive: 0 60% 50%;
-    --destructive-foreground: 45 30% 92%;
-
-    --border: 160 15% 20%;
-    --input: 160 15% 20%;
-    --ring: 140 40% 60%;
-
-    /* Dark retro gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(160 25% 8%), hsl(160 20% 15%));
-    --gradient-warm: linear-gradient(135deg, hsl(160 20% 12%), hsl(160 15% 10%));
-    --gradient-accent: linear-gradient(135deg, hsl(20 20% 18%), hsl(15 25% 20%));
-    --gradient-retro: linear-gradient(135deg, hsl(var(--warm-sage)), hsl(var(--warm-terracotta)));
-    --gradient-retro-subtle: linear-gradient(135deg, hsl(var(--warm-sage) / 0.15), hsl(var(--warm-dusty-rose) / 0.15));
-
-    /* Dark shadows with sage undertones */
-    --shadow-retro: 0 4px 6px -1px rgba(0, 0, 0, 0.4), 0 2px 4px -1px rgba(0, 0, 0, 0.25);
-    --shadow-card: 0 10px 15px -3px rgba(0, 0, 0, 0.4), 0 4px 6px -2px rgba(0, 0, 0, 0.25);
-    --shadow-glow: 0 20px 25px -5px rgba(0, 0, 0, 0.5), 0 10px 10px -5px rgba(0, 0, 0, 0.3);
-
-    --sidebar-background: 240 5.9% 10%;
-    --sidebar-foreground: 240 4.8% 95.9%;
-    --sidebar-primary: 224.3 76.3% 48%;
-    --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 240 3.7% 15.9%;
-    --sidebar-accent-foreground: 240 4.8% 95.9%;
-    --sidebar-border: 240 3.7% 15.9%;
-    --sidebar-ring: 217.2 91.2% 59.8%;
+  * { @apply border-border; }
+  html { scroll-behavior: smooth; }
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: "Libre Franklin", "Helvetica Neue", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0;
   }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Newsreader", Georgia, serif;
+    font-weight: 400;
+    letter-spacing: 0;
+  }
+  ::selection { @apply bg-foreground text-background; }
 }
 
-@layer base {
-  * {
-    @apply border-border;
-  }
+@layer components {
+  .site-container { @apply mx-auto w-full max-w-[1400px] px-5 sm:px-8 lg:px-12; }
+  .eyebrow { @apply font-sans text-[11px] font-medium uppercase tracking-[0.16em] text-muted-foreground; }
+  .nav-link { @apply font-sans text-[13px] transition-colors hover:text-foreground; }
+  .hero-title { @apply font-serif text-5xl font-normal leading-[0.98] sm:text-6xl md:text-7xl lg:text-[84px]; }
+  .page-title { @apply max-w-5xl font-serif text-5xl font-normal leading-[1.02] sm:text-6xl md:text-7xl; }
+  .section-title { @apply font-serif text-4xl font-normal leading-tight md:text-5xl; }
+  .quiet-link { @apply inline-flex items-center gap-2 border-b border-foreground pb-1 font-sans text-sm transition-opacity hover:opacity-55; }
+  .form-label { @apply block font-sans text-[11px] font-medium uppercase tracking-[0.15em] text-muted-foreground; }
+}
 
-  body {
-    @apply bg-background text-foreground font-light;
-  }
-
-  h1, h2, h3, h4, h5, h6 {
-    @apply font-medium text-foreground;
-    line-height: 1.2;
-    letter-spacing: -0.025em;
-  }
-
-  p {
-    line-height: 1.7;
-  }
+@keyframes page-enter {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.page-enter { animation: page-enter 420ms ease-out both; }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .page-enter { animation: none; }
 }
