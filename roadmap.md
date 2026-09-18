@@ -1,8 +1,9 @@
-# Lexhy rebuild
+# Lexhy Architecture B rebuild
 
-- [x] Create the cleaned brand mark and favicon.
-- [x] Replace the legacy site shell and routes.
-- [x] Build all six pages with supplied copy and disclosures.
-- [x] Add validated Contact and Invitation forms.
-- [x] Add unique page metadata, structured data, sitemap, and robots rules.
-- [x] Verify desktop, mobile, navigation, forms, FAQs, and error-free preview.
+- [ ] Replace the brochure with the approved dual-audience public pages.
+- [ ] Use the supplied official logo asset without redrawing it.
+- [ ] Add validated Contact and private firm-interest forms.
+- [ ] Add the labelled external-film placeholder without invented stills.
+- [ ] Update metadata, sitemap, and removed-route behavior.
+- [ ] Verify desktop, mobile, forms, routes, and every prohibited-content check.
+- [ ] Keep unpublished pending Firm Compliance CLEAR and HL approval.
