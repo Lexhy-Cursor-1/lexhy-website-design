@@ -1,5 +1,5 @@
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { SiteLayout } from "@/components/lexhy/SiteLayout";
 import Index from "./pages/Index";
@@ -20,6 +20,7 @@ export default function App() {
           <SiteLayout>
             <Routes>
               <Route path="/" element={<Index />} />
+              <Route path="/index" element={<Navigate to="/" replace />} />
               <Route path="/the-file" element={<TheFile />} />
               <Route path="/for-firms" element={<ForFirms />} />
               <Route path="/how-it-works" element={<HowItWorksPage />} />
