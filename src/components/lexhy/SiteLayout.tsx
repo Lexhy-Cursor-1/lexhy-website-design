@@ -4,9 +4,10 @@ import { Button } from "@/components/ui/button";
 import { BrandLockup, LogoMark } from "./LogoMark";
 
 const navItems = [
-  ["Private wealth", "/private-wealth"],
+  ["The file", "/the-file"],
+  ["For firms", "/for-firms"],
   ["How it works", "/how-it-works"],
-  ["Member firms", "/member-firms"],
+  ["Pedigree", "/pedigree"],
 ] as const;
 
 function Header() {
@@ -22,7 +23,6 @@ function Header() {
                 {label}
               </NavLink>
             ))}
-            <NavLink to="/invitation" className="nav-link text-muted-foreground">Invitation only</NavLink>
           </div>
           <Button asChild variant="outline" className="h-10 rounded-none border-foreground bg-transparent px-4 text-[11px] uppercase tracking-[0.16em] hover:bg-foreground hover:text-background">
             <Link to="/contact" aria-current={pathname === "/contact" ? "page" : undefined}>Contact</Link>
@@ -39,18 +39,19 @@ function Footer() {
       <div className="site-container py-14 md:py-16">
         <div className="grid gap-10 md:grid-cols-[1fr_auto] md:items-start">
           <div>
-            <div className="flex items-center gap-2.5">
+            <div className="flex items-center gap-2.5 rounded-sm bg-paper p-1.5 pr-3 text-foreground">
               <LogoMark className="h-7 w-7" />
               <span className="font-sans text-sm font-bold tracking-[0.04em]">LEXHY</span>
             </div>
             <p className="mt-7 max-w-[76ch] text-xs leading-6 text-primary-foreground/65">
-              Lexhy is a management company. It does not practise law. Legal services are provided only by independently owned member firms authorised in the relevant jurisdiction. Contact does not create a lawyer-client relationship. Membership is by invitation only.
+              Lexhy is a management company. It does not practise law and does not give legal advice. Independently owned member firms take the engagement and sign the advice. Contact does not create a lawyer-client relationship.
             </p>
           </div>
           <div className="flex flex-wrap gap-x-6 gap-y-3 text-xs text-primary-foreground/65 md:justify-end">
-            <Link to="/private-wealth" className="hover:text-primary-foreground">Private wealth</Link>
+            <Link to="/the-file" className="hover:text-primary-foreground">The file</Link>
+            <Link to="/for-firms" className="hover:text-primary-foreground">For firms</Link>
             <Link to="/how-it-works" className="hover:text-primary-foreground">How it works</Link>
-            <Link to="/member-firms" className="hover:text-primary-foreground">Member firms</Link>
+            <Link to="/pedigree" className="hover:text-primary-foreground">Pedigree</Link>
             <Link to="/contact" className="hover:text-primary-foreground">Contact</Link>
           </div>
         </div>
