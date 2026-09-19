@@ -1,8 +1,7 @@
-# Uploaded Lexhy replacement
+# Lexhy editorial redesign
 
-- [x] Replace the root experience with the uploaded one-file site.
-- [x] Keep the same experience available at `/lexhy.html`.
-- [x] Remove the previous React pages and public-route files.
-- [x] Verify desktop, mobile, navigation, embedded demo, full-screen control, and firm-interest form.
-- [x] Confirm previous routes no longer expose the old site.
+- [x] Preserve all existing content and interactions.
+- [x] Apply the selected stone-and-oxblood palette and literary typography.
+- [x] Recompose the presentation as a quiet single-column institutional experience.
+- [ ] Verify desktop and mobile rendering, navigation, embedded demo, and firm-interest form.
 - [x] Keep the site unpublished.
