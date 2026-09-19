@@ -177,6 +177,20 @@ nav a.cta:hover { background:var(--ink);color:var(--card); }
 .feat h3 { margin-top:14px; }
 .feat p { line-height:1.75; }
 .phone { max-width:380px; }
+.try {
+  gap:10px;
+  color:var(--teal);
+  font-size:13px;
+  font-weight:600;
+  letter-spacing:.01em;
+}
+.livedot {
+  width:10px;
+  height:10px;
+  background:var(--teal);
+  box-shadow:0 0 0 4px color-mix(in srgb,var(--teal) 16%,transparent);
+  animation:demo-blink 1.15s ease-in-out infinite;
+}
 .shell {
   border-radius:18px;
   padding:9px;
@@ -245,3 +259,11 @@ footer .co { font-family:var(--body);font-size:16px;font-weight:700;letter-spaci
   .hero .btns { animation-delay:.21s; }
 }
 @keyframes editorial-rise { from { opacity:0;transform:translateY(12px); } to { opacity:1;transform:none; } }
+@keyframes demo-blink {
+  0%,100% { opacity:1;transform:scale(1);box-shadow:0 0 0 4px color-mix(in srgb,var(--teal) 16%,transparent); }
+  50% { opacity:.25;transform:scale(.72);box-shadow:0 0 0 8px transparent; }
+}
+
+@media (prefers-reduced-motion:reduce) {
+  .livedot { animation:none; }
+}
