@@ -1,9 +1,8 @@
-# Lexhy Architecture B rebuild
+# Uploaded Lexhy replacement
 
-- [x] Replace the brochure with the approved dual-audience public pages.
-- [x] Use the supplied official logo asset without redrawing it.
-- [x] Add validated Contact and private firm-interest forms.
-- [x] Add the labelled external-film placeholder without invented stills.
-- [x] Update metadata, sitemap, and removed-route behavior.
-- [x] Verify desktop, mobile, forms, routes, and every prohibited-content check.
-- [x] Keep unpublished pending Firm Compliance CLEAR and HL approval.
+- [x] Replace the root experience with the uploaded one-file site.
+- [x] Keep the same experience available at `/lexhy.html`.
+- [x] Remove the previous React pages and public-route files.
+- [x] Verify desktop, mobile, navigation, embedded demo, full-screen control, and firm-interest form.
+- [x] Confirm previous routes no longer expose the old site.
+- [x] Keep the site unpublished.
